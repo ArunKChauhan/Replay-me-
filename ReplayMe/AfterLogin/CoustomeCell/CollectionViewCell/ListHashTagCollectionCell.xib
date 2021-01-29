@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ListHashTagCollectionCell" id="gTV-IL-0wX" customClass="ListHashTagCollectionCell" customModule="ReplayMe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="62"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="270" height="62"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Eh-HD-mC9">
+                        <rect key="frame" x="18" y="6" width="50" height="50"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="F9W-Ai-b49"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.60392156862745094" green="0.6705882352941176" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.60392156862745094" green="0.6705882352941176" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#Krishna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhT-Hg-yXk">
+                        <rect key="frame" x="82" y="13" width="168" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="lby-J8-Gai"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 videos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVC-C7-nNy">
+                        <rect key="frame" x="82" y="35" width="133" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="1pd-Al-xzN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="13"/>
+                        <color key="textColor" red="0.60392156862745094" green="0.6705882352941176" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="eVC-C7-nNy" firstAttribute="leading" secondItem="7Eh-HD-mC9" secondAttribute="trailing" constant="14" id="DFT-9j-Fcs"/>
+                <constraint firstAttribute="bottom" secondItem="7Eh-HD-mC9" secondAttribute="bottom" constant="6" id="NqJ-IC-mCK"/>
+                <constraint firstItem="7Eh-HD-mC9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="18" id="U3t-SF-Lss"/>
+                <constraint firstItem="OhT-Hg-yXk" firstAttribute="leading" secondItem="7Eh-HD-mC9" secondAttribute="trailing" constant="14" id="hw4-tx-fHP"/>
+                <constraint firstItem="7Eh-HD-mC9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="6" id="m0t-X7-nX8"/>
+                <constraint firstAttribute="trailing" secondItem="OhT-Hg-yXk" secondAttribute="trailing" constant="20" id="nG8-By-rC1"/>
+                <constraint firstItem="eVC-C7-nNy" firstAttribute="top" secondItem="OhT-Hg-yXk" secondAttribute="bottom" constant="5" id="oPQ-D3-rAb"/>
+                <constraint firstItem="OhT-Hg-yXk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="r1z-dC-ONt"/>
+                <constraint firstAttribute="trailing" secondItem="eVC-C7-nNy" secondAttribute="trailing" constant="55" id="tRs-m7-7D7"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="270" height="62"/>
+            <connections>
+                <outlet property="hashtagUserNameLbl" destination="OhT-Hg-yXk" id="c9U-iE-BqV"/>
+                <outlet property="totalPosts" destination="eVC-C7-nNy" id="IFs-uS-5Bx"/>
+            </connections>
+            <point key="canvasLocation" x="-17.39130434782609" y="107.8125"/>
+        </collectionViewCell>
+    </objects>
+</document>

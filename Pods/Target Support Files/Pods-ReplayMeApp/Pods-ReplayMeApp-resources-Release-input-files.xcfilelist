@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ReplayMeApp/Pods-ReplayMeApp-resources.sh
+${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle
+${PODS_ROOT}/TwitterKit5/iOS/TwitterKit.framework/TwitterKitResources.bundle

@@ -1,0 +1,6 @@
+framework module Pods_ReplayMeApp {
+  umbrella header "Pods-ReplayMeApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
