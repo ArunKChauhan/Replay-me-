@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>861497831299-l8mvter9abufssi9cpe061havv592lm4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.861497831299-l8mvter9abufssi9cpe061havv592lm4</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>861497831299-98tuaal597arnj2tf04nft0q1adu1c7t.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDHyrYrxtRZPRrygKsz9PM77XL5CsWPFaY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>861497831299</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ReplayMe.ReplayMe</string>
+	<key>PROJECT_ID</key>
+	<string>replayme-f2e30</string>
+	<key>STORAGE_BUCKET</key>
+	<string>replayme-f2e30.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:861497831299:ios:fe536dae4028a6128f50b6</string>
+	<key>DATABASE_URL</key>
+	<string>https://replayme-f2e30.firebaseio.com</string>
+</dict>
+</plist>

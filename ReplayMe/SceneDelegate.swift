@@ -2,11 +2,14 @@
 //  SceneDelegate.swift
 //  ReplayMe
 //
-//  Created by VIvek Kumar GUpta on 04/02/2021.
+//  Created by Core Techies on 24/02/20.
+//  Copyright © 2020 Core Techies. All rights reserved.
 //
 
 import UIKit
-
+import FBSDKCoreKit
+import TwitterKit
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -23,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
-        // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
+        // The scene may re-connect later, as its session was not neccessarily discarded (see `application:didDiscardSceneSessions` instead).
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
@@ -50,6 +53,76 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
 
+    //  SceneDelegate.swift
 
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        
+        if let openURLContext = URLContexts.first{
+          let url = openURLContext.url
+            print(url)
+          let options: [AnyHashable : Any] = [
+            UIApplication.OpenURLOptionsKey.annotation : openURLContext.options.annotation as Any,
+            UIApplication.OpenURLOptionsKey.sourceApplication : openURLContext.options.sourceApplication as Any,
+            UIApplication.OpenURLOptionsKey.openInPlace : openURLContext.options.openInPlace
+          ]
+         
+            if TWTRTwitter.sharedInstance().application(UIApplication.shared, open: url, options: options) {
+                TWTRTwitter.sharedInstance().application(UIApplication.shared, open: url, options: options)
+                return
+            }
+            ApplicationDelegate.shared.application(
+                   UIApplication.shared,
+                   open: url,
+                   sourceApplication: nil,
+                   annotation: [UIApplication.OpenURLOptionsKey.annotation]
+                   
+               )
+            
+        }
+
+
+   
+    }
+
+func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
+    print("Krishna...")
+    
+    
+//    self.window = UIWindow(frame: UIScreen.main.bounds)
+//
+//    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//
+//    let initialViewController = storyboard.instantiateViewController(withIdentifier: "MyProfileViewController")
+//
+//    self.window?.rootViewController = initialViewController
+//    self.window?.makeKeyAndVisible()
+//    
+//    self.window = UIWindow(frame: UIScreen.main.bounds)
+
+    let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+    let viewController = storyboard.instantiateViewController(withIdentifier: "MyProfileViewController") as! MyProfileViewController
+    let navigationController = UINavigationController.init(rootViewController: viewController)
+    self.window?.rootViewController = navigationController
+
+    self.window?.makeKeyAndVisible()
+    
+    
+     guard userActivity.activityType == NSUserActivityTypeBrowsingWeb,
+            let url = userActivity.webpageURL,
+            let components = URLComponents(url: url, resolvingAgainstBaseURL: true) else {
+              //return false
+                return
+          }
+            
+            //print("url...components...Path...", url, components,components.path)
+    print("Path...", components.path)
+             // 3
+          if let webpageUrl = URL(string: "http://rw-universal-links-final.herokuapp.com") {
+          //  application.open(webpageUrl)
+           // return false
+          }
+          
+         // return false
+    }
 }
 

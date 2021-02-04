@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GothamRoundedLight_21020.ttf">
+            <string>GothamRounded-Light</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomSectionHeader" customModule="ReplayMe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="346" height="61"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7u-Mj-XKn">
+                    <rect key="frame" x="0.0" y="0.0" width="346" height="61"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24 Nov 2019, 10:1001 pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2v-YK-0Bb">
+                            <rect key="frame" x="14" y="57.5" width="318" height="0.5"/>
+                            <color key="backgroundColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="zge-Fa-JmC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="GothamRounded-Light" family="Gotham Rounded" pointSize="10"/>
+                            <color key="textColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Following Request" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3f-Qb-rJi">
+                            <rect key="frame" x="14" y="15" width="249" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="Xz2-3M-0a1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                            <color key="textColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vl4-Gx-cPV">
+                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="83"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6a-ac-xvR">
+                            <rect key="frame" x="258" y="2" width="74" height="53"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="74" id="JOj-AJ-imc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
+                            <state key="normal" title="View All">
+                                <color key="titleColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.043137254899999998" green="0.070588235289999995" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Vl4-Gx-cPV" secondAttribute="bottom" id="1GN-9p-zrd"/>
+                        <constraint firstAttribute="trailing" secondItem="X6a-ac-xvR" secondAttribute="trailing" constant="14" id="9Fw-uf-5Yt"/>
+                        <constraint firstAttribute="trailing" secondItem="Vl4-Gx-cPV" secondAttribute="trailing" id="DRE-yY-EhI"/>
+                        <constraint firstItem="s3f-Qb-rJi" firstAttribute="top" secondItem="z7u-Mj-XKn" secondAttribute="top" constant="15" id="Snh-fF-90n"/>
+                        <constraint firstItem="X6a-ac-xvR" firstAttribute="top" secondItem="z7u-Mj-XKn" secondAttribute="top" constant="2" id="a8H-Yc-6tF"/>
+                        <constraint firstItem="Vl4-Gx-cPV" firstAttribute="top" secondItem="z7u-Mj-XKn" secondAttribute="top" id="bzq-KV-VO3"/>
+                        <constraint firstAttribute="trailing" secondItem="R2v-YK-0Bb" secondAttribute="trailing" constant="14" id="cQX-0M-8qf"/>
+                        <constraint firstItem="R2v-YK-0Bb" firstAttribute="leading" secondItem="z7u-Mj-XKn" secondAttribute="leading" constant="14" id="crH-2Z-Ki4"/>
+                        <constraint firstItem="s3f-Qb-rJi" firstAttribute="leading" secondItem="z7u-Mj-XKn" secondAttribute="leading" constant="14" id="ewb-fT-y8l"/>
+                        <constraint firstItem="R2v-YK-0Bb" firstAttribute="top" secondItem="X6a-ac-xvR" secondAttribute="bottom" constant="2.5" id="gy7-s9-qAv"/>
+                        <constraint firstAttribute="bottom" secondItem="R2v-YK-0Bb" secondAttribute="bottom" constant="3" id="rI5-G5-AH4"/>
+                        <constraint firstItem="Vl4-Gx-cPV" firstAttribute="leading" secondItem="z7u-Mj-XKn" secondAttribute="leading" id="rhm-WF-K4f"/>
+                        <constraint firstAttribute="trailing" secondItem="s3f-Qb-rJi" secondAttribute="trailing" constant="83" id="twk-DJ-qn2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="z7u-Mj-XKn" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="7g9-bd-N7k"/>
+                <constraint firstItem="z7u-Mj-XKn" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="RN2-vK-nkz"/>
+                <constraint firstItem="z7u-Mj-XKn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="VHh-nF-lW1"/>
+                <constraint firstItem="z7u-Mj-XKn" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="kiq-Wu-Uij"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="dateTimeLbl" destination="R2v-YK-0Bb" id="9HB-FV-qCe"/>
+                <outlet property="expendButton" destination="X6a-ac-xvR" id="Bsr-j9-ifa"/>
+                <outlet property="orderNoLbl" destination="s3f-Qb-rJi" id="WDI-fB-MDp"/>
+            </connections>
+            <point key="canvasLocation" x="110.40000000000001" y="-363.86806596701655"/>
+        </view>
+    </objects>
+</document>

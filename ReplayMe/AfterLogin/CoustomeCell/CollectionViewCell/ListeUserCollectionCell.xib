@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ListeUserCollectionCell" id="gTV-IL-0wX" customClass="ListeUserCollectionCell" customModule="ReplayMe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="76"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="76"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="layer35" translatesAutoresizingMaskIntoConstraints="NO" id="1jb-d9-InA">
+                        <rect key="frame" x="18" y="6" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="DmG-LA-Evc"/>
+                            <constraint firstAttribute="width" constant="50" id="H1P-bE-d4X"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Krishna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJw-bf-kmJ">
+                        <rect key="frame" x="85" y="13" width="194" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="KIp-Bo-Kdj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Krishna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRK-7p-uSt">
+                        <rect key="frame" x="85" y="37" width="194" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="hVp-2h-NWE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="13"/>
+                        <color key="textColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="JJw-bf-kmJ" firstAttribute="leading" secondItem="1jb-d9-InA" secondAttribute="trailing" constant="17" id="0LV-7b-4cE"/>
+                <constraint firstItem="1jb-d9-InA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="18" id="4l7-hP-lBV"/>
+                <constraint firstItem="YRK-7p-uSt" firstAttribute="leading" secondItem="1jb-d9-InA" secondAttribute="trailing" constant="17" id="77V-Ee-WDJ"/>
+                <constraint firstAttribute="trailing" secondItem="JJw-bf-kmJ" secondAttribute="trailing" constant="48" id="Dzo-Qn-WPa"/>
+                <constraint firstItem="1jb-d9-InA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="6" id="Gqe-Lf-hX2"/>
+                <constraint firstAttribute="trailing" secondItem="YRK-7p-uSt" secondAttribute="trailing" constant="48" id="ZBG-qn-OwC"/>
+                <constraint firstItem="YRK-7p-uSt" firstAttribute="top" secondItem="JJw-bf-kmJ" secondAttribute="bottom" constant="5" id="guP-C8-UAn"/>
+                <constraint firstItem="JJw-bf-kmJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="oWj-R3-5Sb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="327" height="76"/>
+            <connections>
+                <outlet property="nameLbl" destination="JJw-bf-kmJ" id="Mp5-IT-hof"/>
+                <outlet property="userImg" destination="1jb-d9-InA" id="vGH-hZ-aXM"/>
+                <outlet property="userNameLbl" destination="YRK-7p-uSt" id="eh4-hE-cAg"/>
+            </connections>
+            <point key="canvasLocation" x="-61.594202898550726" y="112.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="layer35" width="36.5" height="36.5"/>
+    </resources>
+</document>
