@@ -12,8 +12,8 @@ target 'ReplayMeApp' do
   pod 'ReachabilitySwift'
   pod 'BRYXBanner'
   pod 'MXSegmentedControl'
-  pod 'AWSS3', '~> 2.6.13'
-  pod 'AWSCognito', '~> 2.6.13'
+#  pod 'AWSS3', '~> 2.6.13'
+#  pod 'AWSCognito', '~> 2.6.13'
   pod "ImageSlideshow/SDWebImage"
   pod "UILoadControl"
   pod 'FacebookCore'

@@ -59,11 +59,11 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
        
         segmentedControl.append(title: "Following")
-            .set(titleColor: #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
+            .set(titleColor:  colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
         segmentedControl.append(title: "Trending")
-            .set(titleColor: #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
+            .set(titleColor:  colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
         
-        segmentedControl.indicator.lineView.backgroundColor = #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)
+        segmentedControl.indicator.lineView.backgroundColor =  colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)
 
         segmentedControl.addTarget(self, action: #selector(changeIndex(segmentedControl:)), for: .valueChanged)
         newsFeedTblView.isPagingEnabled = true
@@ -549,7 +549,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         } else {
             cell.imgView.sd_setImage(with: URL(string: appConstants.kBASE_URL + userDetails[indexPath.row].imageUrl), placeholderImage: UIImage(named: "layer35"))
             cell.lblUserName.text = userDetails[indexPath.row].name
-            cell.imgView.borderColor = #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)
+            cell.imgView.borderColor =  colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)
         }
         return cell
     }
@@ -745,13 +745,13 @@ extension HomeViewController {
     @objc func changeIndex(segmentedControl: MXSegmentedControl) {
         switch segmentedControl.selectedIndex {
         case 0:
-            segmentedControl.indicator.lineView.backgroundColor = #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)
+            segmentedControl.indicator.lineView.backgroundColor =  colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)
             if appDel.isLandscape == false {
                 storyShow()
             }
             checkTopTab = "following"
         case 1:
-            segmentedControl.indicator.lineView.backgroundColor = #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)
+            segmentedControl.indicator.lineView.backgroundColor =  colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)
             storyHide()
             checkTopTab = "trending"
             
@@ -776,3 +776,4 @@ extension HomeViewController {
         
     }
 }
+
