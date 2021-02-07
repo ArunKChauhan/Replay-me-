@@ -49,10 +49,10 @@ class MyProfileViewController: UIViewController,NVActivityIndicatorViewable,Coll
         super.viewDidLoad()
         imagePicker.delegate = self
         
-        ProfilesegmentedControl.append(title: "Recents")
+        ProfilesegmentedControl.append(title: "RECENT")
             .set(titleColor: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1), for: .selected)
-        ProfilesegmentedControl.append(title: "Favorite")
-        ProfilesegmentedControl.append(title: "Events")
+        ProfilesegmentedControl.append(title: "FAVORITES")
+       // ProfilesegmentedControl.append(title: "Events")
 
             .set(titleColor: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1), for: .selected)
         

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15855A5625CFB76B00A6B438 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15855A5525CFB76B00A6B438 /* SettingViewController.swift */; };
+		15855A5925CFBA3300A6B438 /* OtherUserTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15855A5725CFBA3300A6B438 /* OtherUserTblCell.swift */; };
+		15855A5A25CFBA3300A6B438 /* OtherUserTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15855A5825CFBA3300A6B438 /* OtherUserTblCell.xib */; };
 		75811A5F25CC5D7600CC2082 /* ReplayMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811A5E25CC5D7600CC2082 /* ReplayMeTests.swift */; };
 		75811A6A25CC5D7600CC2082 /* ReplayMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811A6925CC5D7600CC2082 /* ReplayMeUITests.swift */; };
 		75811DD025CC61AA00CC2082 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75811D2425CC61AA00CC2082 /* download.jpeg */; };
@@ -117,12 +120,6 @@
 		75811E3C25CC61AB00CC2082 /* PeopleMayKnowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D5025CC61AA00CC2082 /* PeopleMayKnowCell.swift */; };
 		75811E3D25CC61AB00CC2082 /* PeopleMayKnowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D5025CC61AA00CC2082 /* PeopleMayKnowCell.swift */; };
 		75811E3E25CC61AB00CC2082 /* PeopleMayKnowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D5025CC61AA00CC2082 /* PeopleMayKnowCell.swift */; };
-		75811E3F25CC61AB00CC2082 /* OtherUserTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D5125CC61AA00CC2082 /* OtherUserTblCell.swift */; };
-		75811E4025CC61AB00CC2082 /* OtherUserTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D5125CC61AA00CC2082 /* OtherUserTblCell.swift */; };
-		75811E4125CC61AB00CC2082 /* OtherUserTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D5125CC61AA00CC2082 /* OtherUserTblCell.swift */; };
-		75811E4225CC61AB00CC2082 /* OtherUserTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75811D5225CC61AA00CC2082 /* OtherUserTblCell.xib */; };
-		75811E4325CC61AB00CC2082 /* OtherUserTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75811D5225CC61AA00CC2082 /* OtherUserTblCell.xib */; };
-		75811E4425CC61AB00CC2082 /* OtherUserTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75811D5225CC61AA00CC2082 /* OtherUserTblCell.xib */; };
 		75811E4525CC61AB00CC2082 /* TrendingVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75811D5325CC61AA00CC2082 /* TrendingVideoCell.xib */; };
 		75811E4625CC61AB00CC2082 /* TrendingVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75811D5325CC61AA00CC2082 /* TrendingVideoCell.xib */; };
 		75811E4725CC61AB00CC2082 /* TrendingVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75811D5325CC61AA00CC2082 /* TrendingVideoCell.xib */; };
@@ -177,9 +174,6 @@
 		75811E7825CC61AB00CC2082 /* DraftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D6625CC61AA00CC2082 /* DraftViewController.swift */; };
 		75811E7925CC61AB00CC2082 /* DraftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D6625CC61AA00CC2082 /* DraftViewController.swift */; };
 		75811E7A25CC61AB00CC2082 /* DraftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D6625CC61AA00CC2082 /* DraftViewController.swift */; };
-		75811E7B25CC61AB00CC2082 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D6825CC61AA00CC2082 /* SettingViewController.swift */; };
-		75811E7C25CC61AB00CC2082 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D6825CC61AA00CC2082 /* SettingViewController.swift */; };
-		75811E7D25CC61AB00CC2082 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D6825CC61AA00CC2082 /* SettingViewController.swift */; };
 		75811E7E25CC61AB00CC2082 /* UserFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D6925CC61AA00CC2082 /* UserFollowViewController.swift */; };
 		75811E7F25CC61AB00CC2082 /* UserFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D6925CC61AA00CC2082 /* UserFollowViewController.swift */; };
 		75811E8025CC61AB00CC2082 /* UserFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811D6925CC61AA00CC2082 /* UserFollowViewController.swift */; };
@@ -456,6 +450,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15855A5525CFB76B00A6B438 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = "../../../../../Downloads/Replay-me--master/ReplayMe/AfterLogin/MyProfile/SettingViewController.swift"; sourceTree = "<group>"; };
+		15855A5725CFBA3300A6B438 /* OtherUserTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherUserTblCell.swift; sourceTree = "<group>"; };
+		15855A5825CFBA3300A6B438 /* OtherUserTblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherUserTblCell.xib; sourceTree = "<group>"; };
 		2C1C24EB057DF17D928EEB18 /* Pods-ReplayMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplayMe.release.xcconfig"; path = "Target Support Files/Pods-ReplayMe/Pods-ReplayMe.release.xcconfig"; sourceTree = "<group>"; };
 		42A1241B97B05A91DC9AD369 /* Pods_ReplayMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReplayMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3C90406C34EEE391BF85CD /* Pods-ReplayMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplayMe.debug.xcconfig"; path = "Target Support Files/Pods-ReplayMe/Pods-ReplayMe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -501,8 +498,6 @@
 		75811D4E25CC61AA00CC2082 /* CustomSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSectionHeader.xib; sourceTree = "<group>"; };
 		75811D4F25CC61AA00CC2082 /* EventDraftsTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDraftsTblCell.swift; sourceTree = "<group>"; };
 		75811D5025CC61AA00CC2082 /* PeopleMayKnowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleMayKnowCell.swift; sourceTree = "<group>"; };
-		75811D5125CC61AA00CC2082 /* OtherUserTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherUserTblCell.swift; sourceTree = "<group>"; };
-		75811D5225CC61AA00CC2082 /* OtherUserTblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherUserTblCell.xib; sourceTree = "<group>"; };
 		75811D5325CC61AA00CC2082 /* TrendingVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrendingVideoCell.xib; sourceTree = "<group>"; };
 		75811D5425CC61AA00CC2082 /* DraftTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftTableCell.swift; sourceTree = "<group>"; };
 		75811D5525CC61AA00CC2082 /* PeopleMayKnowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeopleMayKnowCell.xib; sourceTree = "<group>"; };
@@ -521,7 +516,6 @@
 		75811D6425CC61AA00CC2082 /* usersCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usersCollectionViewCell.swift; sourceTree = "<group>"; };
 		75811D6525CC61AA00CC2082 /* PreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreViewController.swift; sourceTree = "<group>"; };
 		75811D6625CC61AA00CC2082 /* DraftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftViewController.swift; sourceTree = "<group>"; };
-		75811D6825CC61AA00CC2082 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		75811D6925CC61AA00CC2082 /* UserFollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFollowViewController.swift; sourceTree = "<group>"; };
 		75811D6A25CC61AA00CC2082 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
 		75811D6B25CC61AA00CC2082 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
@@ -768,6 +762,8 @@
 		75811D4525CC61AA00CC2082 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				15855A5725CFBA3300A6B438 /* OtherUserTblCell.swift */,
+				15855A5825CFBA3300A6B438 /* OtherUserTblCell.xib */,
 				75811D4625CC61AA00CC2082 /* FollowUserCell.swift */,
 				75811D4725CC61AA00CC2082 /* DraftLandscapCell.swift */,
 				75811D4825CC61AA00CC2082 /* DraftsTblCell.xib */,
@@ -779,8 +775,6 @@
 				75811D4E25CC61AA00CC2082 /* CustomSectionHeader.xib */,
 				75811D4F25CC61AA00CC2082 /* EventDraftsTblCell.swift */,
 				75811D5025CC61AA00CC2082 /* PeopleMayKnowCell.swift */,
-				75811D5125CC61AA00CC2082 /* OtherUserTblCell.swift */,
-				75811D5225CC61AA00CC2082 /* OtherUserTblCell.xib */,
 				75811D5325CC61AA00CC2082 /* TrendingVideoCell.xib */,
 				75811D5425CC61AA00CC2082 /* DraftTableCell.swift */,
 				75811D5525CC61AA00CC2082 /* PeopleMayKnowCell.xib */,
@@ -820,7 +814,7 @@
 		75811D6725CC61AA00CC2082 /* MyProfile */ = {
 			isa = PBXGroup;
 			children = (
-				75811D6825CC61AA00CC2082 /* SettingViewController.swift */,
+				15855A5525CFB76B00A6B438 /* SettingViewController.swift */,
 				75811D6925CC61AA00CC2082 /* UserFollowViewController.swift */,
 				75811D6A25CC61AA00CC2082 /* UpdateProfileViewController.swift */,
 				75811D6B25CC61AA00CC2082 /* MyProfileViewController.swift */,
@@ -1136,7 +1130,6 @@
 				75811DEE25CC61AB00CC2082 /* OtherUserCollectionCell.xib in Resources */,
 				75811DF425CC61AB00CC2082 /* ListHashTagCollectionCell.xib in Resources */,
 				75CF61D925CEE1430062B72B /* Main.storyboard in Resources */,
-				75811E4225CC61AB00CC2082 /* OtherUserTblCell.xib in Resources */,
 				75CF61D825CEE1430062B72B /* LaunchScreen.storyboard in Resources */,
 				75811E9325CC61AB00CC2082 /* VideoCoverImgViewController.xib in Resources */,
 				75811E2425CC61AB00CC2082 /* DraftsTblCell.xib in Resources */,
@@ -1151,6 +1144,7 @@
 				75811E5A25CC61AB00CC2082 /* EventDraftsTblCell.xib in Resources */,
 				75811E4525CC61AB00CC2082 /* TrendingVideoCell.xib in Resources */,
 				75811E1525CC61AB00CC2082 /* ListeUserCollectionCell.xib in Resources */,
+				15855A5A25CFBA3300A6B438 /* OtherUserTblCell.xib in Resources */,
 				75811F5925CC61AB00CC2082 /* 911Fonts.com_CenturyGothicBold__-_911fonts.com_fonts_pMgo.ttf in Resources */,
 				75CF61D725CEE1430062B72B /* Assets.xcassets in Resources */,
 				75811DFA25CC61AB00CC2082 /* HeaderCollectionViewCell.xib in Resources */,
@@ -1168,7 +1162,6 @@
 				75811DEC25CC61AA00CC2082 /* VideoThumbnailCell.xib in Resources */,
 				75811DEF25CC61AB00CC2082 /* OtherUserCollectionCell.xib in Resources */,
 				75811DF525CC61AB00CC2082 /* ListHashTagCollectionCell.xib in Resources */,
-				75811E4325CC61AB00CC2082 /* OtherUserTblCell.xib in Resources */,
 				75811E9425CC61AB00CC2082 /* VideoCoverImgViewController.xib in Resources */,
 				75811E2525CC61AB00CC2082 /* DraftsTblCell.xib in Resources */,
 				75811E3425CC61AB00CC2082 /* PeopleFollowRequestCell.xib in Resources */,
@@ -1199,7 +1192,6 @@
 				75811DED25CC61AB00CC2082 /* VideoThumbnailCell.xib in Resources */,
 				75811DF025CC61AB00CC2082 /* OtherUserCollectionCell.xib in Resources */,
 				75811DF625CC61AB00CC2082 /* ListHashTagCollectionCell.xib in Resources */,
-				75811E4425CC61AB00CC2082 /* OtherUserTblCell.xib in Resources */,
 				75811E9525CC61AB00CC2082 /* VideoCoverImgViewController.xib in Resources */,
 				75811E2625CC61AB00CC2082 /* DraftsTblCell.xib in Resources */,
 				75811E3525CC61AB00CC2082 /* PeopleFollowRequestCell.xib in Resources */,
@@ -1290,6 +1282,7 @@
 				75811F0225CC61AB00CC2082 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
 				75811EB125CC61AB00CC2082 /* CollectionViewCellModel.swift in Sources */,
 				75811F7A25CC61AC00CC2082 /* AppDelegate.swift in Sources */,
+				15855A5625CFB76B00A6B438 /* SettingViewController.swift in Sources */,
 				75811E0C25CC61AB00CC2082 /* ListHashTagCollectionCell.swift in Sources */,
 				75811E2725CC61AB00CC2082 /* PeopleFollowRequestCell.swift in Sources */,
 				75811E6625CC61AB00CC2082 /* ContentViewController.swift in Sources */,
@@ -1357,7 +1350,6 @@
 				75811ECC25CC61AB00CC2082 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
 				75811F2F25CC61AB00CC2082 /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
 				75811EF025CC61AB00CC2082 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
-				75811E3F25CC61AB00CC2082 /* OtherUserTblCell.swift in Sources */,
 				75811F4725CC61AB00CC2082 /* PreviewView.swift in Sources */,
 				75811E3925CC61AB00CC2082 /* EventDraftsTblCell.swift in Sources */,
 				75811F3225CC61AB00CC2082 /* AppImageView.swift in Sources */,
@@ -1375,6 +1367,7 @@
 				75811E8725CC61AB00CC2082 /* VideoCoverImgViewController.swift in Sources */,
 				75811F2625CC61AB00CC2082 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
 				75811E8A25CC61AB00CC2082 /* CustomAlertViewDelegate.swift in Sources */,
+				15855A5925CFBA3300A6B438 /* OtherUserTblCell.swift in Sources */,
 				75811F3825CC61AB00CC2082 /* UIViewController+Extensions.swift in Sources */,
 				75811EA825CC61AB00CC2082 /* SearchListController.swift in Sources */,
 				75811E4825CC61AB00CC2082 /* DraftTableCell.swift in Sources */,
@@ -1396,7 +1389,6 @@
 				75811EC925CC61AB00CC2082 /* NVActivityIndicatorView.swift in Sources */,
 				75811F3B25CC61AB00CC2082 /* Blurry.swift in Sources */,
 				75811DE525CC61AA00CC2082 /* ReplayMe.xcdatamodeld in Sources */,
-				75811E7B25CC61AB00CC2082 /* SettingViewController.swift in Sources */,
 				75811EE725CC61AB00CC2082 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
 				75811DDC25CC61AA00CC2082 /* ForgotPwsdViewController.swift in Sources */,
 				75811EDB25CC61AB00CC2082 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */,
@@ -1428,7 +1420,6 @@
 				75811EEB25CC61AB00CC2082 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
 				75811E0D25CC61AB00CC2082 /* ListHashTagCollectionCell.swift in Sources */,
 				75811E4925CC61AB00CC2082 /* DraftTableCell.swift in Sources */,
-				75811E7C25CC61AB00CC2082 /* SettingViewController.swift in Sources */,
 				75811E2B25CC61AB00CC2082 /* CustomSectionHeader.swift in Sources */,
 				75811EB525CC61AB00CC2082 /* HashtagUserViewController.swift in Sources */,
 				75811F7B25CC61AC00CC2082 /* AppDelegate.swift in Sources */,
@@ -1445,7 +1436,6 @@
 				75811EBB25CC61AB00CC2082 /* UserViewController.swift in Sources */,
 				75811F3925CC61AB00CC2082 /* UIViewController+Extensions.swift in Sources */,
 				75811E3A25CC61AB00CC2082 /* EventDraftsTblCell.swift in Sources */,
-				75811E4025CC61AB00CC2082 /* OtherUserTblCell.swift in Sources */,
 				75811F0325CC61AB00CC2082 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
 				75811DDA25CC61AA00CC2082 /* LoginViewController.swift in Sources */,
 				75811F0925CC61AB00CC2082 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
@@ -1553,7 +1543,6 @@
 				75811EEC25CC61AB00CC2082 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
 				75811E0E25CC61AB00CC2082 /* ListHashTagCollectionCell.swift in Sources */,
 				75811E4A25CC61AB00CC2082 /* DraftTableCell.swift in Sources */,
-				75811E7D25CC61AB00CC2082 /* SettingViewController.swift in Sources */,
 				75811E2C25CC61AB00CC2082 /* CustomSectionHeader.swift in Sources */,
 				75811EB625CC61AB00CC2082 /* HashtagUserViewController.swift in Sources */,
 				75811F7C25CC61AC00CC2082 /* AppDelegate.swift in Sources */,
@@ -1570,7 +1559,6 @@
 				75811EBC25CC61AB00CC2082 /* UserViewController.swift in Sources */,
 				75811F3A25CC61AB00CC2082 /* UIViewController+Extensions.swift in Sources */,
 				75811E3B25CC61AB00CC2082 /* EventDraftsTblCell.swift in Sources */,
-				75811E4125CC61AB00CC2082 /* OtherUserTblCell.swift in Sources */,
 				75811F0425CC61AB00CC2082 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
 				75811DDB25CC61AA00CC2082 /* LoginViewController.swift in Sources */,
 				75811F0A25CC61AB00CC2082 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
@@ -1742,13 +1730,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1797,12 +1786,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1825,7 +1815,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ReplayMe.ReplayMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1847,7 +1837,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ReplayMe.ReplayMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1859,7 +1849,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LF2B4BCRGJ;
 				INFOPLIST_FILE = ReplayMeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1881,7 +1871,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LF2B4BCRGJ;
 				INFOPLIST_FILE = ReplayMeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -204,12 +204,12 @@ class PepopleMayKnowViewController: UIViewController,UITableViewDelegate,UITable
         return header
     }
       @objc func viewAll(button: UIButton) {
-        print("krishna")
-         let section = button.tag
-          let headerTitleStr = sectionArray[section]
-       let vc = self.storyboard?.instantiateViewController(withIdentifier: "MoreListViewController") as! MoreListViewController
-        vc.checkSectionString = headerTitleStr; self.navigationController?.pushViewController(vc, animated: false)
-        
+//        print("krishna")
+//         let section = button.tag
+//          let headerTitleStr = sectionArray[section]
+//       let vc = self.storyboard?.instantiateViewController(withIdentifier: "MoreListViewController") as! MoreListViewController
+//        vc.checkSectionString = headerTitleStr; self.navigationController?.pushViewController(vc, animated: false)
+//        
     }
     
     @objc func confirmBtn(button: UIButton)  {

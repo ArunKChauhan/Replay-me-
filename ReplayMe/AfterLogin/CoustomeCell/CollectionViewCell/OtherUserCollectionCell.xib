@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Roboto-Medium.ttf">
-            <string>Roboto-Medium</string>
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
         </array>
         <array key="Roboto-Regular.ttf">
             <string>Roboto-Regular</string>
@@ -18,7 +17,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionviewcellid" id="gTV-IL-0wX" customClass="OtherUserCollectionCell" customModule="ReplayMe" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionviewcellid" id="gTV-IL-0wX" customClass="OtherUserCollectionCell" customModule="ReplayMeApp" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="236" height="174"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -26,15 +25,15 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZFa-0G-puv">
-                        <rect key="frame" x="0.0" y="0.0" width="236" height="121"/>
+                        <rect key="frame" x="0.0" y="0.0" width="236" height="174"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" asnksdfkjsdhf  sdkhjgh  dhgkdf gkjdfgh kdfg" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xr5-oJ-b3B">
-                        <rect key="frame" x="4" y="124" width="229" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tandav" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xr5-oJ-b3B">
+                        <rect key="frame" x="4" y="108" width="229" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="nMb-lY-FFj"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
-                        <color key="textColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14.399999618530273"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 views" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ptg-YF-ZNh">
@@ -43,11 +42,11 @@
                             <constraint firstAttribute="height" constant="16" id="KTX-mT-HHs"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
-                        <color key="textColor" red="0.4431372549" green="0.49019607840000001" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_play_circle_filled" translatesAutoresizingMaskIntoConstraints="NO" id="TxA-XH-wrP">
-                        <rect key="frame" x="98" y="41" width="40" height="40"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TxA-XH-wrP">
+                        <rect key="frame" x="98" y="66" width="40" height="40"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="40" id="NMW-2g-lgI"/>
                             <constraint firstAttribute="width" constant="40" id="dvn-EW-05F"/>
@@ -58,16 +57,16 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="Ptg-YF-ZNh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="Bs7-2N-7Wq"/>
-                <constraint firstItem="Ptg-YF-ZNh" firstAttribute="top" secondItem="Xr5-oJ-b3B" secondAttribute="bottom" constant="2" id="RNI-eP-QcB"/>
+                <constraint firstItem="Ptg-YF-ZNh" firstAttribute="top" secondItem="Xr5-oJ-b3B" secondAttribute="bottom" constant="18" id="RNI-eP-QcB"/>
                 <constraint firstAttribute="trailing" secondItem="Ptg-YF-ZNh" secondAttribute="trailing" constant="81" id="StX-a0-Obw"/>
                 <constraint firstItem="ZFa-0G-puv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="0.10000000000000001" id="VEh-ME-vNg"/>
                 <constraint firstItem="Xr5-oJ-b3B" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="dej-y3-kL2"/>
                 <constraint firstAttribute="bottom" secondItem="Ptg-YF-ZNh" secondAttribute="bottom" constant="11" id="dgn-tw-cvi"/>
                 <constraint firstAttribute="trailing" secondItem="Xr5-oJ-b3B" secondAttribute="trailing" constant="3" id="fmX-29-6QA"/>
-                <constraint firstItem="TxA-XH-wrP" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-26" id="pwU-zN-1bK"/>
+                <constraint firstItem="TxA-XH-wrP" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-1" id="pwU-zN-1bK"/>
                 <constraint firstItem="TxA-XH-wrP" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="uic-g6-GeC"/>
                 <constraint firstAttribute="trailing" secondItem="ZFa-0G-puv" secondAttribute="trailing" constant="0.10000000000000001" id="vhf-nL-sIL"/>
-                <constraint firstItem="Xr5-oJ-b3B" firstAttribute="top" secondItem="ZFa-0G-puv" secondAttribute="bottom" constant="3" id="wBO-MF-5gP"/>
+                <constraint firstItem="Xr5-oJ-b3B" firstAttribute="top" secondItem="ZFa-0G-puv" secondAttribute="bottom" constant="-66" id="wBO-MF-5gP"/>
                 <constraint firstItem="ZFa-0G-puv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="0.10000000000000001" id="yMz-gj-x8R"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
@@ -80,7 +79,4 @@
             <point key="canvasLocation" x="20.289855072463769" y="135.26785714285714"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="ic_play_circle_filled" width="36" height="36"/>
-    </resources>
 </document>

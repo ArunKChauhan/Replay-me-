@@ -58,9 +58,9 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         
        
-        segmentedControl.append(title: "Following")
+        segmentedControl.append(title: "FOLLOWING")
             .set(titleColor: #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
-        segmentedControl.append(title: "Trending")
+        segmentedControl.append(title: "TRENDING")
             .set(titleColor: #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
         
         segmentedControl.indicator.lineView.backgroundColor = #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)

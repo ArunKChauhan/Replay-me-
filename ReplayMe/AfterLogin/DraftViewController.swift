@@ -42,12 +42,12 @@ class DraftViewController: UIViewController,UITableViewDelegate, UITableViewData
 //                //secondViewController.videoUrlStr = shareVideoUrlStr
 //        self.navigationController?.pushViewController(secondViewController, animated: true)
         
-        
-        segmentedControl.append(title: "My Drafts")
-            .set(titleColor: #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
-        
-        segmentedControl.append(title: "Event Drafts")
-            .set(titleColor: #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
+//        
+//        segmentedControl.append(title: "My Drafts")
+//            .set(titleColor: #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
+//        
+//        segmentedControl.append(title: "Event Drafts")
+//            .set(titleColor: #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
         segmentedControl.indicator.lineView.backgroundColor = #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)
         segmentedControl.addTarget(self, action: #selector(changeIndex(segmentedControl:)), for: .valueChanged)
         retrieveData()

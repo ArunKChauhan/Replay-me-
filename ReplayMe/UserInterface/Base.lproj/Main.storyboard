@@ -25,7 +25,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,7 +123,7 @@
         <!--Login View Controller-->
         <scene sceneID="nPF-bU-c9R">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="Z5O-lU-2MU" customClass="LoginViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="Z5O-lU-2MU" customClass="LoginViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u3z-gK-fod">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -170,7 +170,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="heR-fu-7nG">
                                 <rect key="frame" x="32" y="254" width="257" height="39"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email / Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T2R-JK-SR9" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email / Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T2R-JK-SR9" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="3" y="17" width="253" height="19"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -322,7 +322,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MXn-zY-Qqs">
                                 <rect key="frame" x="32" y="309" width="257" height="39"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V57-ZR-8q3" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V57-ZR-8q3" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="3" y="17" width="253" height="19"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -859,7 +859,7 @@
         <!--Forgot Pwsd View Controller-->
         <scene sceneID="xWy-v2-t0I">
             <objects>
-                <viewController storyboardIdentifier="ForgotPwsdViewController" id="ckV-Wo-usU" customClass="ForgotPwsdViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ForgotPwsdViewController" id="ckV-Wo-usU" customClass="ForgotPwsdViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GDE-17-Vmi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -942,7 +942,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIL-kQ-3bh">
                                 <rect key="frame" x="32" y="264" width="257" height="39"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=" Email / Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kFt-ND-IHS" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=" Email / Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kFt-ND-IHS" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="3" y="0.0" width="254" height="38.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -1279,7 +1279,7 @@
         <!--Signup View Controller-->
         <scene sceneID="2Qa-nd-wfY">
             <objects>
-                <viewController storyboardIdentifier="SignupViewController" id="YwH-yz-6og" customClass="SignupViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignupViewController" id="YwH-yz-6og" customClass="SignupViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qAL-q9-ccV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1316,7 +1316,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w7S-r5-XvF">
                                                         <rect key="frame" x="0.0" y="0.0" width="131.5" height="41"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fI8-DE-9uU" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fI8-DE-9uU" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="17" width="131.5" height="18"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1359,7 +1359,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ajj-lC-HJD">
                                                         <rect key="frame" x="138.5" y="0.0" width="131.5" height="41"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TVT-JK-aaT" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TVT-JK-aaT" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="17" width="131.5" height="18"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1410,7 +1410,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WS9-V5-kXE">
                                                         <rect key="frame" x="0.0" y="0.0" width="270" height="42"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NyP-dG-3gq" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NyP-dG-3gq" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="17" width="270" height="18"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
@@ -1455,7 +1455,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r4m-ea-kpp">
                                                         <rect key="frame" x="0.0" y="52" width="270" height="42"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UCl-fO-UEJ" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UCl-fO-UEJ" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="17" width="270" height="18"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
@@ -1500,7 +1500,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYB-xe-gDh">
                                                         <rect key="frame" x="0.0" y="104" width="270" height="42"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Retype Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U8b-8A-Wz7" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Retype Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U8b-8A-Wz7" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="17" width="270" height="18"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
@@ -1545,7 +1545,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mbD-JV-lLg">
                                                         <rect key="frame" x="0.0" y="156" width="270" height="42"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aXF-Tq-6CH" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aXF-Tq-6CH" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="17" width="270" height="18"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
@@ -1590,7 +1590,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oeh-Dg-XaJ">
                                                         <rect key="frame" x="0.0" y="208" width="270" height="42"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yMA-1Q-KQV" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yMA-1Q-KQV" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="9" width="270" height="30"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
@@ -1846,7 +1846,7 @@
         <!--Squad View Controller-->
         <scene sceneID="D4u-gt-Lv1">
             <objects>
-                <viewController storyboardIdentifier="SquadViewController" id="yuc-CA-zqj" customClass="SquadViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SquadViewController" id="yuc-CA-zqj" customClass="SquadViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bK-WG-24D">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1886,7 +1886,7 @@
         <!--Content View Controller-->
         <scene sceneID="C8d-aM-InN">
             <objects>
-                <viewController storyboardIdentifier="ContentView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wjh-JB-6ss" customClass="ContentViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContentView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wjh-JB-6ss" customClass="ContentViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7ir-bl-BYI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1901,7 +1901,7 @@
         <!--Pre View Controller-->
         <scene sceneID="DPy-rU-FyC">
             <objects>
-                <viewController storyboardIdentifier="PreView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9Ko-bo-Ndx" customClass="PreViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PreView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9Ko-bo-Ndx" customClass="PreViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iVi-ZG-geU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1988,7 +1988,7 @@
         <!--Home View Controller-->
         <scene sceneID="9DI-8r-kJM">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="MYu-qj-tV8" customClass="HomeViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="MYu-qj-tV8" customClass="HomeViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GbY-tw-ZIN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1997,7 +1997,7 @@
                                 <rect key="frame" x="0.0" y="227" width="320" height="290"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="newsFeedCell" rowHeight="403" id="y2h-4T-l2i" customClass="HomeNewFeedCell" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="newsFeedCell" rowHeight="403" id="y2h-4T-l2i" customClass="HomeNewFeedCell" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="403"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y2h-4T-l2i" id="8s8-Yx-7T8">
@@ -2048,7 +2048,7 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTT-nl-dKP" customClass="PlayerView" customModule="ReplayMeApp" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTT-nl-dKP" customClass="PlayerView" customModule="ReplayMe" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="38" width="320" height="295"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -2165,7 +2165,7 @@
                                             <outlet property="userDetailBtn" destination="gue-KB-6cU" id="usA-eY-F6h"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="newsFeedLandscape" rowHeight="268" id="xpA-Ma-OTX" customClass="NewsFeedLandscapeCell" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="newsFeedLandscape" rowHeight="268" id="xpA-Ma-OTX" customClass="NewsFeedLandscapeCell" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="431" width="320" height="268"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xpA-Ma-OTX" id="b4X-Fb-3df">
@@ -2176,7 +2176,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="268"/>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
-                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ko7-9P-dVn" customClass="PlayerView" customModule="ReplayMeApp" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ko7-9P-dVn" customClass="PlayerView" customModule="ReplayMe" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="11" width="320" height="255"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
@@ -2862,7 +2862,7 @@
                                     <inset key="sectionInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="FOW-VX-dLs" customClass="usersCollectionViewCell" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="FOW-VX-dLs" customClass="usersCollectionViewCell" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="5" y="0.0" width="92" height="106"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="iaK-K2-GDM">
@@ -3319,7 +3319,7 @@
         <!--Comment View Controller-->
         <scene sceneID="gta-JV-Uq8">
             <objects>
-                <viewController storyboardIdentifier="CommentViewController" id="pq1-O2-prM" customClass="CommentViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CommentViewController" id="pq1-O2-prM" customClass="CommentViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K7g-h8-mzW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3363,7 +3363,7 @@
                                 <rect key="frame" x="0.0" y="56" width="320" height="446.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommentTblCell" rowHeight="68" id="2X2-nz-Acs" customClass="CommentTblCell" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommentTblCell" rowHeight="68" id="2X2-nz-Acs" customClass="CommentTblCell" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="68"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2X2-nz-Acs" id="rC2-oI-a64">
@@ -3449,7 +3449,7 @@
                                     <outlet property="delegate" destination="pq1-O2-prM" id="II3-ab-yNs"/>
                                 </connections>
                             </tableView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Write your comment" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I9N-8N-8eo" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Write your comment" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I9N-8N-8eo" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                 <rect key="frame" x="5" y="510" width="263" height="56"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -3521,7 +3521,7 @@
         <!--Search View Controller-->
         <scene sceneID="YTZ-8X-P59">
             <objects>
-                <viewController storyboardIdentifier="SearchViewController" id="SuL-7c-1qR" customClass="SearchViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchViewController" id="SuL-7c-1qR" customClass="SearchViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jfn-Js-V4F">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4092,7 +4092,7 @@
         <!--Search List Controller-->
         <scene sceneID="K47-BO-d8h">
             <objects>
-                <viewController storyboardIdentifier="SearchListController" id="SSa-AE-G0k" customClass="SearchListController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchListController" id="SSa-AE-G0k" customClass="SearchListController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eix-6p-bN4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4758,7 +4758,7 @@
         <!--Hashtag User View Controller-->
         <scene sceneID="ADi-Ve-5da">
             <objects>
-                <viewController storyboardIdentifier="HashtagUserViewController" id="FhU-dJ-xN8" customClass="HashtagUserViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HashtagUserViewController" id="FhU-dJ-xN8" customClass="HashtagUserViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="43h-Ay-ZzW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4836,7 +4836,7 @@
                                     <inset key="sectionInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HashTagCollectionViewCell" id="guc-2b-F6W" customClass="HashTagCollectionViewCell" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HashTagCollectionViewCell" id="guc-2b-F6W" customClass="HashTagCollectionViewCell" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="5" y="0.0" width="150" height="162"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2Bo-eg-bYt">
@@ -4943,7 +4943,7 @@
         <!--Full Screen Video Player Controller-->
         <scene sceneID="fXN-7i-538">
             <objects>
-                <viewController storyboardIdentifier="FullScreenVideoPlayerController" id="jPQ-I5-0fh" customClass="FullScreenVideoPlayerController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FullScreenVideoPlayerController" id="jPQ-I5-0fh" customClass="FullScreenVideoPlayerController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kjq-rM-gL0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5354,7 +5354,7 @@
         <!--Update Profile View Controller-->
         <scene sceneID="AZN-F8-yyO">
             <objects>
-                <viewController storyboardIdentifier="UpdateProfileViewController" id="8cg-hG-qAy" customClass="UpdateProfileViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UpdateProfileViewController" id="8cg-hG-qAy" customClass="UpdateProfileViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pOq-7A-Ov2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5422,7 +5422,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZo-hl-CjE">
                                                     <rect key="frame" x="0.0" y="0.0" width="131.5" height="41"/>
                                                     <subviews>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mbJ-yC-vdO" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mbJ-yC-vdO" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="131.5" height="40"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -5465,7 +5465,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3l-OZ-MlJ">
                                                     <rect key="frame" x="138.5" y="0.0" width="131.5" height="41"/>
                                                     <subviews>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xFh-Jg-ieL" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xFh-Jg-ieL" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="131.5" height="38.5"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -5514,7 +5514,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BgC-VV-He1">
                                             <rect key="frame" x="25" y="297" width="270" height="41"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Bio" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lyl-Md-bnS" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Bio" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lyl-Md-bnS" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="270" height="39"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -5568,7 +5568,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cgd-Te-BIy">
                                             <rect key="frame" x="25" y="387" width="270" height="41"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="61q-20-QPl" customClass="PaddedTextField" customModule="ReplayMeApp" customModuleProvider="target">
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="61q-20-QPl" customClass="PaddedTextField" customModule="ReplayMe" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="270" height="39"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -5690,7 +5690,7 @@
         <!--User Follow View Controller-->
         <scene sceneID="ukj-xN-O3i">
             <objects>
-                <viewController storyboardIdentifier="UserFollowViewController" id="wmc-68-riu" customClass="UserFollowViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserFollowViewController" id="wmc-68-riu" customClass="UserFollowViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kYo-im-VBS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5797,7 +5797,7 @@
                                 <rect key="frame" x="0.0" y="208" width="320" height="360"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="following" rowHeight="62" id="LdN-nA-LYN" customClass="FollowUserCell" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="following" rowHeight="62" id="LdN-nA-LYN" customClass="FollowUserCell" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LdN-nA-LYN" id="SBs-bY-8E7">
@@ -5853,7 +5853,7 @@
                                             <outlet property="followingUserName" destination="xCA-bf-NMY" id="Q8h-rS-Szg"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="followers" rowHeight="62" id="QJg-rX-82t" customClass="FollowUserCell" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="followers" rowHeight="62" id="QJg-rX-82t" customClass="FollowUserCell" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="90" width="320" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QJg-rX-82t" id="c27-0D-dwx">
@@ -5948,7 +5948,7 @@
         <!--Setting View Controller-->
         <scene sceneID="nVW-6K-fkb">
             <objects>
-                <viewController storyboardIdentifier="SettingViewController" id="mUe-DD-jlk" customClass="SettingViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingViewController" id="mUe-DD-jlk" customClass="SettingViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZE1-DN-biH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6015,7 +6015,7 @@
         <!--Draft View Controller-->
         <scene sceneID="7Fi-V1-WGv">
             <objects>
-                <viewController storyboardIdentifier="DraftViewController" id="d0a-W5-nTd" customClass="DraftViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DraftViewController" id="d0a-W5-nTd" customClass="DraftViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t01-62-XQS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6024,7 +6024,7 @@
                                 <rect key="frame" x="0.0" y="120" width="320" height="448"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DraftTableCell" rowHeight="256" id="lI1-oH-YnS" customClass="DraftTableCell" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DraftTableCell" rowHeight="256" id="lI1-oH-YnS" customClass="DraftTableCell" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="256"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lI1-oH-YnS" id="fYs-fl-B4c">
@@ -6667,7 +6667,7 @@
         <!--Post News View Controller-->
         <scene sceneID="ZJL-Hw-2UC">
             <objects>
-                <viewController storyboardIdentifier="PostNewsViewController" id="IbS-de-jHk" customClass="PostNewsViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PostNewsViewController" id="IbS-de-jHk" customClass="PostNewsViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2hX-7O-yHp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6936,14 +6936,14 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qD1-hS-ZCk">
                                                     <rect key="frame" x="0.0" y="45" width="273" height="0.5"/>
-                                                    <color key="backgroundColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="0.5" id="r3G-Yq-Nv8"/>
                                                         <constraint firstAttribute="height" constant="0.5" id="s87-uP-pK5"/>
                                                         <constraint firstAttribute="height" constant="0.5" id="zCg-sj-PPM"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -6966,6 +6966,7 @@
                                                 </label>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnI-yp-A1d">
                                                     <rect key="frame" x="8" y="0.0" width="265" height="44.5"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                                     <userDefinedRuntimeAttributes>
@@ -7740,7 +7741,7 @@
         <!--My Profile View Controller-->
         <scene sceneID="lpv-H1-QXe">
             <objects>
-                <viewController storyboardIdentifier="MyProfileViewController" id="qZs-Nd-wAM" customClass="MyProfileViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyProfileViewController" id="qZs-Nd-wAM" customClass="MyProfileViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oha-Sm-An9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8659,7 +8660,7 @@
         <!--More List View Controller-->
         <scene sceneID="0yw-uX-cNA">
             <objects>
-                <viewController storyboardIdentifier="MoreListViewController" id="UMG-kl-QZz" customClass="MoreListViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MoreListViewController" id="UMG-kl-QZz" customClass="MoreListViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3O7-eo-hUd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8728,7 +8729,7 @@
         <!--Draft Custome Alert-->
         <scene sceneID="XG1-aG-tvn">
             <objects>
-                <viewController storyboardIdentifier="CustomAlertID" id="nAH-O2-rRW" customClass="DraftCustomeAlert" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CustomAlertID" id="nAH-O2-rRW" customClass="DraftCustomeAlert" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qoZ-d6-Pfb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8889,7 +8890,7 @@
         <!--Post News Feed View Controller-->
         <scene sceneID="X5H-p4-McM">
             <objects>
-                <viewController storyboardIdentifier="PostNewsFeedViewController" id="Clq-ft-koS" customClass="PostNewsFeedViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PostNewsFeedViewController" id="Clq-ft-koS" customClass="PostNewsFeedViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="btd-yv-TYx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -8929,7 +8930,7 @@
                                     <constraint firstItem="RVC-vX-bwm" firstAttribute="centerX" secondItem="TmT-Oz-CYg" secondAttribute="centerX" id="zkJ-hj-xAm"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BXa-c0-e8F" customClass="AGVideoPlayerView" customModule="ReplayMeApp" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BXa-c0-e8F" customClass="AGVideoPlayerView" customModule="ReplayMe" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="320" height="157"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -9003,7 +9004,7 @@
         <!--Camera View Controller-->
         <scene sceneID="JM4-pY-gA6">
             <objects>
-                <viewController storyboardIdentifier="CameraViewController" id="bQL-rm-cRT" customClass="CameraViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CameraViewController" id="bQL-rm-cRT" customClass="CameraViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3ML-Cs-GvK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -9019,10 +9020,10 @@
                                     <action selector="settingBtnClicked:" destination="bQL-rm-cRT" eventType="touchUpInside" id="rds-gW-kEr"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qu7-4z-XAl">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qu7-4z-XAl">
                                 <rect key="frame" x="450" y="6" width="75" height="556"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Li8-11-mn5">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Li8-11-mn5">
                                         <rect key="frame" x="5" y="126" width="65" height="65"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="65" id="74a-T9-RFQ"/>
@@ -9033,7 +9034,7 @@
                                             <action selector="cameraSwitchTapped:" destination="bQL-rm-cRT" eventType="touchUpInside" id="KCT-pO-cr5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWe-G1-Yik">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWe-G1-Yik">
                                         <rect key="frame" x="5" y="361" width="65" height="65"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="65" id="7cc-48-JYs"/>
@@ -9045,7 +9046,7 @@
                                             <action selector="draftBtnClicked:" destination="bQL-rm-cRT" eventType="touchUpInside" id="hf0-Gh-7wM"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8El-Ze-n8V" customClass="SwiftyRecordButton" customModule="ReplayMeApp" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8El-Ze-n8V" customClass="SwiftyRecordButton" customModule="ReplayMe" customModuleProvider="target">
                                         <rect key="frame" x="12.5" y="253" width="50" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -9087,10 +9088,10 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lgw-Nv-v3f">
-                                <rect key="frame" x="0.0" y="8" width="526" height="560"/>
+                                <rect key="frame" x="0.0" y="8" width="320" height="560"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZC-8w-37k">
-                                        <rect key="frame" x="244.5" y="0.0" width="37" height="37"/>
+                                        <rect key="frame" x="141.5" y="0.0" width="37" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="DzF-eB-pwg"/>
                                             <constraint firstAttribute="width" constant="37" id="hlS-8A-7QL"/>
@@ -9111,7 +9112,7 @@
                                         <color key="highlightedColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oes-8u-qJk">
-                                        <rect key="frame" x="5" y="113" width="516" height="0.5"/>
+                                        <rect key="frame" x="5" y="113" width="310" height="0.5"/>
                                         <color key="backgroundColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="0.5" id="7bc-To-KYx"/>
@@ -9141,7 +9142,7 @@
                                         <color key="highlightedColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60 Sec" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnC-kd-EEc">
-                                        <rect key="frame" x="455" y="130" width="43" height="21"/>
+                                        <rect key="frame" x="249" y="130" width="43" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="L9u-EQ-oE9"/>
                                             <constraint firstAttribute="width" constant="43" id="Rqc-JS-37q"/>
@@ -9151,7 +9152,7 @@
                                         <color key="highlightedColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="10" maxValue="60" translatesAutoresizingMaskIntoConstraints="NO" id="jFN-mM-V6h">
-                                        <rect key="frame" x="22" y="161" width="276" height="30"/>
+                                        <rect key="frame" x="22" y="161" width="70" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="29" id="vxi-5l-HaW"/>
                                         </constraints>
@@ -9196,7 +9197,7 @@
                                         </connections>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60 Sec" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xle-01-OLn">
-                                        <rect key="frame" x="455" y="257" width="43" height="21"/>
+                                        <rect key="frame" x="249" y="257" width="43" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="fG8-Zt-9sB"/>
                                             <constraint firstAttribute="width" constant="43" id="mRa-h9-hc5"/>
@@ -9206,7 +9207,7 @@
                                         <color key="highlightedColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60 sec" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dus-U9-BRm">
-                                        <rect key="frame" x="456" y="199" width="42" height="17"/>
+                                        <rect key="frame" x="250" y="199" width="42" height="17"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="42" id="lup-cU-a4i"/>
                                             <constraint firstAttribute="height" constant="17" id="ofO-90-3UQ"/>
@@ -9226,7 +9227,7 @@
                                         <color key="highlightedColor" red="0.60392156860000001" green="0.6705882353" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60 sec" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDE-Tp-DIL">
-                                        <rect key="frame" x="456" y="327" width="42" height="17"/>
+                                        <rect key="frame" x="250" y="327" width="42" height="17"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="42" id="hzw-J0-1rM"/>
                                             <constraint firstAttribute="height" constant="17" id="xgr-RG-dmt"/>
@@ -9308,7 +9309,7 @@
         <!--Other User Video View Controller-->
         <scene sceneID="Jib-9v-Np9">
             <objects>
-                <viewController storyboardIdentifier="OtherUserVideoViewController" id="QeW-Qc-xHI" customClass="OtherUserVideoViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OtherUserVideoViewController" id="QeW-Qc-xHI" customClass="OtherUserVideoViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="41S-Yf-w1I">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -9574,7 +9575,7 @@
         <!--Pepople May Know View Controller-->
         <scene sceneID="csC-cO-cEg">
             <objects>
-                <viewController storyboardIdentifier="PepopleMayKnowViewController" id="lXu-yM-fDK" customClass="PepopleMayKnowViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PepopleMayKnowViewController" id="lXu-yM-fDK" customClass="PepopleMayKnowViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rsZ-Ro-i3A">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10200,7 +10201,7 @@
         <!--User View Controller-->
         <scene sceneID="bTY-tU-Mhd">
             <objects>
-                <viewController storyboardIdentifier="con1" id="qGK-Kt-rhc" customClass="UserViewController" customModule="ReplayMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="con1" id="qGK-Kt-rhc" customClass="UserViewController" customModule="ReplayMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="icQ-Sw-zCf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -10898,7 +10899,7 @@
         <image name="facebook" width="30" height="30"/>
         <image name="google" width="30" height="30"/>
         <image name="header_Image" width="113" height="34"/>
-        <image name="heart" width="29" height="29"/>
+        <image name="heart" width="26" height="26"/>
         <image name="home" width="29" height="29"/>
         <image name="home_pink" width="29" height="29"/>
         <image name="ic_play_circle_filled" width="36" height="36"/>
