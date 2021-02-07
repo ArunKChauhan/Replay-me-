@@ -67,9 +67,9 @@ class DraftViewController: UIViewController,UITableViewDelegate, UITableViewData
             self.navigationController?.setNavigationBarHidden(true, animated: true)
         }
         DispatchQueue.main.async {
-            //self.appDel.myOrientation = .portrait
-            // UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
-            self.appDel.orientationLock = .all
+            self.appDel.orientationLock = .portrait
+             UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
+//            self.appDel.orientationLock = .all
             
         }
     }
@@ -243,61 +243,61 @@ class DraftViewController: UIViewController,UITableViewDelegate, UITableViewData
     
     // MARK: - UITableView Buton Action
     // MARK: - UITableView Buton Action
-//    @objc func shareVideoBtnPressed(sender: UIButton)
-//       {
-//        let buttonRow = sender.tag
-//        let listDetailDict = list[buttonRow]
-//
-//         let urlStr = (listDetailDict as AnyObject).value(forKey: "videoClip") as! NSString
-//                 print(urlStr)
-//                 let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-//                 let documentsURL = paths[0] as NSURL
-//                 guard let myUrl =  URL(string: "\(documentsURL)\(urlStr)") else { return  }
-//
-//       // let yourPath = ""
-//      //  let yourUrl = URL(fileURLWithPath: yourPath)
-//        let activity: [Any] = [myUrl, "Your custom message here…"]
-//        let actController = UIActivityViewController(activityItems: activity, applicationActivities: nil)
-//        actController.popoverPresentationController?.sourceView = view
-//        actController.popoverPresentationController?.sourceRect = view.frame
-//        self.present(actController, animated: true, completion: nil)
-//
-//
-//    }
-//    @objc func saveVideoGallaryBtnPressed(sender: UIButton)
-//    {
-//
-//        let alertController = UIAlertController(title: "Alert", message: "Are you sure want to Saved  the video Gallary", preferredStyle: .alert)
-//
-//        // Create the actions
-//        let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
-//            UIAlertAction in
-//
-//            let buttonRow = sender.tag
-//            let listDetailDict = self.list[buttonRow]
-//                 let urlStr = (listDetailDict as AnyObject).value(forKey: "videoClip") as! NSString
-//
-//
-//            let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-//            let documentsURL = paths[0] as NSURL
-//
-//            guard let myUrl =  URL(string: "\(documentsURL)\(urlStr)") else { return  }
-//ALAssetsLibrary().writeVideoAtPath(toSavedPhotosAlbum: myUrl, completionBlock: nil)
-//
-//
-//        }
-//        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel) {
-//            UIAlertAction in
-//            NSLog("Cancel Pressed")
-//        }
-//
-//        // Add the actions
-//        alertController.addAction(okAction)
-//        alertController.addAction(cancelAction)
-//
-//        // Present the controller
-//        self.present(alertController, animated: true, completion: nil)
-//    }
+    @objc func shareVideoBtnPressed(sender: UIButton)
+       {
+        let buttonRow = sender.tag
+        let listDetailDict = list[buttonRow]
+
+         let urlStr = (listDetailDict as AnyObject).value(forKey: "videoClip") as! NSString
+                 print(urlStr)
+                 let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+                 let documentsURL = paths[0] as NSURL
+                 guard let myUrl =  URL(string: "\(documentsURL)\(urlStr)") else { return  }
+
+       // let yourPath = ""
+      //  let yourUrl = URL(fileURLWithPath: yourPath)
+        let activity: [Any] = [myUrl, "Your custom message here…"]
+        let actController = UIActivityViewController(activityItems: activity, applicationActivities: nil)
+        actController.popoverPresentationController?.sourceView = view
+        actController.popoverPresentationController?.sourceRect = view.frame
+        self.present(actController, animated: true, completion: nil)
+
+
+    }
+    @objc func saveVideoGallaryBtnPressed(sender: UIButton)
+    {
+
+        let alertController = UIAlertController(title: "Alert", message: "Are you sure want to Saved  the video Gallary", preferredStyle: .alert)
+
+        // Create the actions
+        let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
+            UIAlertAction in
+
+            let buttonRow = sender.tag
+            let listDetailDict = self.list[buttonRow]
+                 let urlStr = (listDetailDict as AnyObject).value(forKey: "videoClip") as! NSString
+
+
+            let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+            let documentsURL = paths[0] as NSURL
+
+            guard let myUrl =  URL(string: "\(documentsURL)\(urlStr)") else { return  }
+ALAssetsLibrary().writeVideoAtPath(toSavedPhotosAlbum: myUrl, completionBlock: nil)
+
+
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel) {
+            UIAlertAction in
+            NSLog("Cancel Pressed")
+        }
+
+        // Add the actions
+        alertController.addAction(okAction)
+        alertController.addAction(cancelAction)
+
+        // Present the controller
+        self.present(alertController, animated: true, completion: nil)
+    }
     @objc func sendBtnPressed(sender: UIButton)
        {
         let buttonRow = sender.tag
@@ -355,203 +355,203 @@ class DraftViewController: UIViewController,UITableViewDelegate, UITableViewData
         self.present(alertController, animated: true, completion: nil)
    
     }
-//    @objc func sendVideoBtnPressed(sender: UIButton)
-//    {
-//        let buttonRow = sender.tag
-//        let listDetailDict = list[buttonRow]
-//        shareVideoUrlStr = ((listDetailDict as AnyObject).value(forKey: "videoClip") as! NSString) as String
-//      //`  shareVideoUrlStr = self.list[buttonRow] as! String
-//        let customAlert = self.storyboard?.instantiateViewController(withIdentifier: "CustomAlertID") as! DraftCustomeAlert
-//        customAlert.providesPresentationContextTransitionStyle = true
-//        customAlert.definesPresentationContext = true
-//        customAlert.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
-//        customAlert.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
-//        customAlert.delegate = self
-//        self.present(customAlert, animated: true, completion: nil)
-//
-//
-//
-//    }
-    // MARK: - AWSS3TransferManager Upload video
-//
-//    func AWSS3TransferManagerUploadFunction(with resource: String) {
-//        let key = "\(resource)"
-//
-//        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-//        let documentsURL = paths[0] as NSURL
-//        guard let myUrl =  URL(string: "\(documentsURL)\(resource)") else { return  }
-//        let request = AWSS3TransferManagerUploadRequest()!
-//        request.bucket = bucketName
-//        request.key = key
-//        request.body = myUrl
-//        request.acl = .publicReadWrite
-//        let transferManager = AWSS3TransferManager.default()
-//        self.startAnimating()
-//   transferManager.upload(request).continueWith(executor: AWSExecutor.mainThread()) { (task) -> Any? in
-//            if let error = task.error {
-//                print(error)
-//                self.stopAnimating()
-//            }
-//            if task.result != nil {
-//                  self.stopAnimating()
-//                print("Uploaded \(key)")
-//                self.UploadVideoUrlStr = "https://replaymedemo.s3.ap-south-1.amazonaws.com/NewsFeedVideo/\(key)"
-//
-//                self.getThumbnailFrom(path: myUrl)
-//
-//            }
-//            return nil
-//        }
-//
-//    }
-     // MARK: - Video thumbnail function
-//    func getThumbnailFrom(path: URL) {
-//
-//        do {
-//
-//            let asset = AVURLAsset(url: path , options: nil)
-//             videoDuration = "\(asset.duration.seconds)"
-//            let imgGenerator = AVAssetImageGenerator(asset: asset)
-//            imgGenerator.appliesPreferredTrackTransform = true
-//            let cgImage = try imgGenerator.copyCGImage(at: CMTimeMake(value: 0, timescale: 1), actualTime: nil)
-//           let image:UIImage = UIImage.init(cgImage: cgImage)
-//           let fileNames = "\(Date().timeIntervalSince1970).jpg"
-//
-//         saveImage(imageName: fileNames, image: image)
-//
-//        } catch let error {
-//
-//            print("*** Error generating thumbnail: \(error.localizedDescription)")
-//           // return nil
-//
-//        }
-//
-//    }
-//     // MARK: - thumbnailImage Save function
-//            func saveImage(imageName: String, image: UIImage) {
-//
-//
-//             guard let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else { return }
-//
-//                let fileURL = documentsDirectory.appendingPathComponent(imageName)
-//                guard let data = image.jpegData(compressionQuality: 1) else { return }
-//
-//                //Checks if file exists, removes it if so.
-//                if FileManager.default.fileExists(atPath: fileURL.path) {
-//                    do {
-//                        try FileManager.default.removeItem(atPath: fileURL.path)
-//                        print("Removed old image")
-//                    } catch let removeError {
-//                        print("couldn't remove file at path", removeError)
-//                    }
-//
-//                }
-//
-//                do {
-//                    try data.write(to: fileURL)
-//                } catch let error {
-//                    print("error saving file with error", error)
-//                }
-//        loadImageFromDiskWith(fileName: imageName)
-//            }
-//
-//     // MARK: - fetch thumbnail Url
-//    func loadImageFromDiskWith(fileName: String) -> UIImage? {
-//
-//      let documentDirectory = FileManager.SearchPathDirectory.documentDirectory
-//
-//        let userDomainMask = FileManager.SearchPathDomainMask.userDomainMask
-//        let paths = NSSearchPathForDirectoriesInDomains(documentDirectory, userDomainMask, true)
-//
-//        if let dirPath = paths.first {
-//            let imageUrl = URL(fileURLWithPath: dirPath).appendingPathComponent(fileName)
-//            let image = UIImage(contentsOfFile: imageUrl.path)
-//           // userProfileImg.image = image
-//            AWSS3TransferManagerUploadImageFunction(with: imageUrl,fileName:fileName )
-//            return image
-//
-//        }
-//
-//        return nil
-//    }
-//     // MARK: - AWSS3TransferManager Upload Image
-//    func AWSS3TransferManagerUploadImageFunction(with resource: URL,fileName: String) {
-//
-//           self.startAnimating()
-//
-//           let key = "\(fileName)"
-//           let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-//                 let documentsURL = paths[0] as NSURL
-//                 guard let myUrl =  URL(string: "\(documentsURL)\(resource)") else { return  }
-//           let request = AWSS3TransferManagerUploadRequest()!
-//           request.bucket = thumbnailBucketName
-//           request.key = key
-//           request.body = resource
-//           request.acl = .publicReadWrite
-//           request.contentType = "image"
-//
-//           let transferManager = AWSS3TransferManager.default()
-//               self.startAnimating()
-//           transferManager.upload(request).continueWith(executor: AWSExecutor.mainThread()) { (task) -> Any? in
-//               if let error = task.error {
-//                   print(error)
-//                    self.stopAnimating()
-//               }
-//               if task.result != nil {
-//                   print("Uploaded \(key)")
-//                  self.stopAnimating()
-//                   self.uploadAddStory(with: "https://replaymedemo.s3.ap-south-1.amazonaws.com/NewsFeedVideo/output/images/\(key)" )
-//
-//               }
-//               return nil
-//           }
-//
-//       }
-//     // MARK: - Upload story function
-//    func uploadAddStory(with imageThumb: String){
-//
-//        let para = ["videoUrl": UploadVideoUrlStr,"videoScreenShotUrl": imageThumb,"videoLength": videoDuration]
-//        print (para)
-//        ServiceClassMethods.AlamoRequest(method: "POST", serviceString: appConstants.kAddStory, parameters: para as [String : Any]) { (dict) in
-//            print(dict)
-//            self.stopAnimating()
-//            let status = dict["status"] as? String
-//            if(status == "true"){
-//                self.ShowBanner(title: "", subtitle: dict.object(forKey: "message") as! String)
-//                if self.uploadType == 2{
-//                self.uploadVidoeNewsFeed(with: imageThumb)
-//                }
-//            }
-//            else
-//            {
-//                self.stopAnimating()
-//                self.ShowBanner(title: "", subtitle: dict.object(forKey: "message") as! String)
-//
-//            }
-//        }
-//    }
-//     // MARK: - Upload newsFeed function
-//    func uploadVidoeNewsFeed(with imgThumbUrl: String){
-//
-//        self.startAnimating()
-//        let para = ["videoUrl": UploadVideoUrlStr,"videoScreenShotUrl":imgThumbUrl,"content": ""]
-//                     print (para)
-//                     ServiceClassMethods.AlamoRequest(method: "POST", serviceString: appConstants.kAddNewsFeedVideo, parameters: para as [String : Any]) { (dict) in
-//                         print(dict)
-//                         self.stopAnimating()
-//                         let status = dict["status"] as? String
-//
-//                         if(status == "true"){
-//                       self.ShowBanner(title: "", subtitle: dict.object(forKey: "message") as! String)
-//                         }
-//                         else
-//                         {
-//                              self.stopAnimating()
-//                              self.ShowBanner(title: "", subtitle: dict.object(forKey: "message") as! String)
-//
-//                         }
-//        }
-//    }
+    @objc func sendVideoBtnPressed(sender: UIButton)
+    {
+        let buttonRow = sender.tag
+        let listDetailDict = list[buttonRow]
+        shareVideoUrlStr = ((listDetailDict as AnyObject).value(forKey: "videoClip") as! NSString) as String
+      //`  shareVideoUrlStr = self.list[buttonRow] as! String
+        let customAlert = self.storyboard?.instantiateViewController(withIdentifier: "CustomAlertID") as! DraftCustomeAlert
+        customAlert.providesPresentationContextTransitionStyle = true
+        customAlert.definesPresentationContext = true
+        customAlert.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
+        customAlert.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        customAlert.delegate = self
+        self.present(customAlert, animated: true, completion: nil)
+
+
+
+    }
+     
+
+    func AWSS3TransferManagerUploadFunction(with resource: String) {
+        let key = "\(resource)"
+
+        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        let documentsURL = paths[0] as NSURL
+        guard let myUrl =  URL(string: "\(documentsURL)\(resource)") else { return  }
+        let request = AWSS3TransferManagerUploadRequest()!
+        request.bucket = bucketName
+        request.key = key
+        request.body = myUrl
+        request.acl = .publicReadWrite
+        let transferManager = AWSS3TransferManager.default()
+        self.startAnimating()
+   transferManager.upload(request).continueWith(executor: AWSExecutor.mainThread()) { (task) -> Any? in
+            if let error = task.error {
+                print(error)
+                self.stopAnimating()
+            }
+            if task.result != nil {
+                  self.stopAnimating()
+                print("Uploaded \(key)")
+                self.UploadVideoUrlStr = "https://replaymedemo.s3.ap-south-1.amazonaws.com/NewsFeedVideo/\(key)"
+
+                self.getThumbnailFrom(path: myUrl)
+
+            }
+            return nil
+        }
+
+    }
+     
+    func getThumbnailFrom(path: URL) {
+
+        do {
+
+            let asset = AVURLAsset(url: path , options: nil)
+             videoDuration = "\(asset.duration.seconds)"
+            let imgGenerator = AVAssetImageGenerator(asset: asset)
+            imgGenerator.appliesPreferredTrackTransform = true
+            let cgImage = try imgGenerator.copyCGImage(at: CMTimeMake(value: 0, timescale: 1), actualTime: nil)
+           let image:UIImage = UIImage.init(cgImage: cgImage)
+           let fileNames = "\(Date().timeIntervalSince1970).jpg"
+
+         saveImage(imageName: fileNames, image: image)
+
+        } catch let error {
+
+            print("*** Error generating thumbnail: \(error.localizedDescription)")
+           // return nil
+
+        }
+
+    }
+     // MARK: - thumbnailImage Save function
+            func saveImage(imageName: String, image: UIImage) {
+
+
+             guard let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else { return }
+
+                let fileURL = documentsDirectory.appendingPathComponent(imageName)
+                guard let data = image.jpegData(compressionQuality: 1) else { return }
+
+                //Checks if file exists, removes it if so.
+                if FileManager.default.fileExists(atPath: fileURL.path) {
+                    do {
+                        try FileManager.default.removeItem(atPath: fileURL.path)
+                        print("Removed old image")
+                    } catch let removeError {
+                        print("couldn't remove file at path", removeError)
+                    }
+
+                }
+
+                do {
+                    try data.write(to: fileURL)
+                } catch let error {
+                    print("error saving file with error", error)
+                }
+        loadImageFromDiskWith(fileName: imageName)
+            }
+
+     // MARK: - fetch thumbnail Url
+    func loadImageFromDiskWith(fileName: String) -> UIImage? {
+
+      let documentDirectory = FileManager.SearchPathDirectory.documentDirectory
+
+        let userDomainMask = FileManager.SearchPathDomainMask.userDomainMask
+        let paths = NSSearchPathForDirectoriesInDomains(documentDirectory, userDomainMask, true)
+
+        if let dirPath = paths.first {
+            let imageUrl = URL(fileURLWithPath: dirPath).appendingPathComponent(fileName)
+            let image = UIImage(contentsOfFile: imageUrl.path)
+           // userProfileImg.image = image
+            AWSS3TransferManagerUploadImageFunction(with: imageUrl,fileName:fileName )
+            return image
+
+        }
+
+        return nil
+    }
+     // MARK: - AWSS3TransferManager Upload Image
+    func AWSS3TransferManagerUploadImageFunction(with resource: URL,fileName: String) {
+
+           self.startAnimating()
+
+           let key = "\(fileName)"
+           let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+                 let documentsURL = paths[0] as NSURL
+                 guard let myUrl =  URL(string: "\(documentsURL)\(resource)") else { return  }
+           let request = AWSS3TransferManagerUploadRequest()!
+           request.bucket = thumbnailBucketName
+           request.key = key
+           request.body = resource
+           request.acl = .publicReadWrite
+           request.contentType = "image"
+
+           let transferManager = AWSS3TransferManager.default()
+               self.startAnimating()
+           transferManager.upload(request).continueWith(executor: AWSExecutor.mainThread()) { (task) -> Any? in
+               if let error = task.error {
+                   print(error)
+                    self.stopAnimating()
+               }
+               if task.result != nil {
+                   print("Uploaded \(key)")
+                  self.stopAnimating()
+                   self.uploadAddStory(with: "https://replaymedemo.s3.ap-south-1.amazonaws.com/NewsFeedVideo/output/images/\(key)" )
+
+               }
+               return nil
+           }
+
+       }
+     // MARK: - Upload story function
+    func uploadAddStory(with imageThumb: String){
+
+        let para = ["videoUrl": UploadVideoUrlStr,"videoScreenShotUrl": imageThumb,"videoLength": videoDuration]
+        print (para)
+        ServiceClassMethods.AlamoRequest(method: "POST", serviceString: appConstants.kAddStory, parameters: para as [String : Any]) { (dict) in
+            print(dict)
+            self.stopAnimating()
+            let status = dict["status"] as? String
+            if(status == "true"){
+                self.ShowBanner(title: "", subtitle: dict.object(forKey: "message") as! String)
+                if self.uploadType == 2{
+                self.uploadVidoeNewsFeed(with: imageThumb)
+                }
+            }
+            else
+            {
+                self.stopAnimating()
+                self.ShowBanner(title: "", subtitle: dict.object(forKey: "message") as! String)
+
+            }
+        }
+    }
+     // MARK: - Upload newsFeed function
+    func uploadVidoeNewsFeed(with imgThumbUrl: String){
+
+        self.startAnimating()
+        let para = ["videoUrl": UploadVideoUrlStr,"videoScreenShotUrl":imgThumbUrl,"content": ""]
+                     print (para)
+                     ServiceClassMethods.AlamoRequest(method: "POST", serviceString: appConstants.kAddNewsFeedVideo, parameters: para as [String : Any]) { (dict) in
+                         print(dict)
+                         self.stopAnimating()
+                         let status = dict["status"] as? String
+
+                         if(status == "true"){
+                       self.ShowBanner(title: "", subtitle: dict.object(forKey: "message") as! String)
+                         }
+                         else
+                         {
+                              self.stopAnimating()
+                              self.ShowBanner(title: "", subtitle: dict.object(forKey: "message") as! String)
+
+                         }
+        }
+    }
   
     
     
@@ -605,6 +605,7 @@ extension DraftViewController {
         }
     }
 }
+
 @available(iOS 13.0, *)
 extension DraftViewController: CustomAlertViewDelegate {
     

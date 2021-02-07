@@ -33,9 +33,6 @@
 		75811DE525CC61AA00CC2082 /* ReplayMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75811D2E25CC61AA00CC2082 /* ReplayMe.xcdatamodeld */; };
 		75811DE625CC61AA00CC2082 /* ReplayMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75811D2E25CC61AA00CC2082 /* ReplayMe.xcdatamodeld */; };
 		75811DE725CC61AA00CC2082 /* ReplayMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75811D2E25CC61AA00CC2082 /* ReplayMe.xcdatamodeld */; };
-		75811DE825CC61AA00CC2082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75811D3025CC61AA00CC2082 /* Assets.xcassets */; };
-		75811DE925CC61AA00CC2082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75811D3025CC61AA00CC2082 /* Assets.xcassets */; };
-		75811DEA25CC61AA00CC2082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75811D3025CC61AA00CC2082 /* Assets.xcassets */; };
 		75811DEB25CC61AA00CC2082 /* VideoThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75811D3425CC61AA00CC2082 /* VideoThumbnailCell.xib */; };
 		75811DEC25CC61AA00CC2082 /* VideoThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75811D3425CC61AA00CC2082 /* VideoThumbnailCell.xib */; };
 		75811DED25CC61AB00CC2082 /* VideoThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75811D3425CC61AA00CC2082 /* VideoThumbnailCell.xib */; };
@@ -426,15 +423,6 @@
 		75811F6E25CC61AC00CC2082 /* RecordVideo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75811DC525CC61AA00CC2082 /* RecordVideo.xcdatamodeld */; };
 		75811F6F25CC61AC00CC2082 /* RecordVideo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75811DC525CC61AA00CC2082 /* RecordVideo.xcdatamodeld */; };
 		75811F7025CC61AC00CC2082 /* RecordVideo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75811DC525CC61AA00CC2082 /* RecordVideo.xcdatamodeld */; };
-		75811F7125CC61AC00CC2082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75811DC825CC61AA00CC2082 /* Assets.xcassets */; };
-		75811F7225CC61AC00CC2082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75811DC825CC61AA00CC2082 /* Assets.xcassets */; };
-		75811F7325CC61AC00CC2082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75811DC825CC61AA00CC2082 /* Assets.xcassets */; };
-		75811F7425CC61AC00CC2082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75811DC925CC61AA00CC2082 /* LaunchScreen.storyboard */; };
-		75811F7525CC61AC00CC2082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75811DC925CC61AA00CC2082 /* LaunchScreen.storyboard */; };
-		75811F7625CC61AC00CC2082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75811DC925CC61AA00CC2082 /* LaunchScreen.storyboard */; };
-		75811F7725CC61AC00CC2082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75811DCB25CC61AA00CC2082 /* Main.storyboard */; };
-		75811F7825CC61AC00CC2082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75811DCB25CC61AA00CC2082 /* Main.storyboard */; };
-		75811F7925CC61AC00CC2082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75811DCB25CC61AA00CC2082 /* Main.storyboard */; };
 		75811F7A25CC61AC00CC2082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811DCD25CC61AA00CC2082 /* AppDelegate.swift */; };
 		75811F7B25CC61AC00CC2082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811DCD25CC61AA00CC2082 /* AppDelegate.swift */; };
 		75811F7C25CC61AC00CC2082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811DCD25CC61AA00CC2082 /* AppDelegate.swift */; };
@@ -443,6 +431,10 @@
 		75811F8025CC61AC00CC2082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811DCF25CC61AA00CC2082 /* SceneDelegate.swift */; };
 		75811F8125CC61AC00CC2082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811DCF25CC61AA00CC2082 /* SceneDelegate.swift */; };
 		75811F8225CC61AC00CC2082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811DCF25CC61AA00CC2082 /* SceneDelegate.swift */; };
+		75CF61D725CEE1430062B72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CF61D225CEE1430062B72B /* Assets.xcassets */; };
+		75CF61D825CEE1430062B72B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CF61D325CEE1430062B72B /* LaunchScreen.storyboard */; };
+		75CF61D925CEE1430062B72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CF61D525CEE1430062B72B /* Main.storyboard */; };
+		75CF620D25CF21AA0062B72B /* APOrientationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF620C25CF21AA0062B72B /* APOrientationManager.swift */; };
 		9A7C8E1E7481487E0AB05AC5 /* Pods_ReplayMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A1241B97B05A91DC9AD369 /* Pods_ReplayMe.framework */; };
 /* End PBXBuildFile section */
 
@@ -481,7 +473,6 @@
 		75811D2C25CC61AA00CC2082 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		75811D2D25CC61AA00CC2082 /* ServiceClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceClass.swift; sourceTree = "<group>"; };
 		75811D2F25CC61AA00CC2082 /* ReplayMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReplayMe.xcdatamodel; sourceTree = "<group>"; };
-		75811D3025CC61AA00CC2082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75811D3425CC61AA00CC2082 /* VideoThumbnailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoThumbnailCell.xib; sourceTree = "<group>"; };
 		75811D3525CC61AA00CC2082 /* OtherUserCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherUserCollectionCell.xib; sourceTree = "<group>"; };
 		75811D3625CC61AA00CC2082 /* GridVideoCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridVideoCollectionCell.swift; sourceTree = "<group>"; };
@@ -612,12 +603,13 @@
 		75811DC325CC61AA00CC2082 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		75811DC425CC61AA00CC2082 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		75811DC625CC61AA00CC2082 /* RecordVideo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecordVideo.xcdatamodel; sourceTree = "<group>"; };
-		75811DC825CC61AA00CC2082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		75811DCA25CC61AA00CC2082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75811DCC25CC61AA00CC2082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75811DCD25CC61AA00CC2082 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75811DCE25CC61AA00CC2082 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75811DCF25CC61AA00CC2082 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75CF61D225CEE1430062B72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75CF61D425CEE1430062B72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75CF61D625CEE1430062B72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75CF620C25CF21AA0062B72B /* APOrientationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APOrientationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -692,13 +684,12 @@
 				75811D2625CC61AA00CC2082 /* BeforeLogin */,
 				75811D2B25CC61AA00CC2082 /* DataParser */,
 				75811D2E25CC61AA00CC2082 /* ReplayMe.xcdatamodeld */,
-				75811D3025CC61AA00CC2082 /* Assets.xcassets */,
 				75811D3125CC61AA00CC2082 /* AfterLogin */,
 				75811D8225CC61AA00CC2082 /* Libraries */,
 				75811DAE25CC61AA00CC2082 /* Library */,
 				75811DC425CC61AA00CC2082 /* GoogleService-Info.plist */,
 				75811DC525CC61AA00CC2082 /* RecordVideo.xcdatamodeld */,
-				75811DC725CC61AA00CC2082 /* UserInterface */,
+				75CF61D125CEE1430062B72B /* UserInterface */,
 				75811DCD25CC61AA00CC2082 /* AppDelegate.swift */,
 				75811DCE25CC61AA00CC2082 /* Info.plist */,
 				75811DCF25CC61AA00CC2082 /* SceneDelegate.swift */,
@@ -974,6 +965,7 @@
 				75811DBB25CC61AA00CC2082 /* RPicker.swift */,
 				75811DBC25CC61AA00CC2082 /* ViewBorderRound.swift */,
 				75811DBD25CC61AA00CC2082 /* Font */,
+				75CF620C25CF21AA0062B72B /* APOrientationManager.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -1003,12 +995,12 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
-		75811DC725CC61AA00CC2082 /* UserInterface */ = {
+		75CF61D125CEE1430062B72B /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
-				75811DC825CC61AA00CC2082 /* Assets.xcassets */,
-				75811DC925CC61AA00CC2082 /* LaunchScreen.storyboard */,
-				75811DCB25CC61AA00CC2082 /* Main.storyboard */,
+				75CF61D225CEE1430062B72B /* Assets.xcassets */,
+				75CF61D325CEE1430062B72B /* LaunchScreen.storyboard */,
+				75CF61D525CEE1430062B72B /* Main.storyboard */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -1142,10 +1134,10 @@
 				75811E4B25CC61AB00CC2082 /* PeopleMayKnowCell.xib in Resources */,
 				75811DEB25CC61AA00CC2082 /* VideoThumbnailCell.xib in Resources */,
 				75811DEE25CC61AB00CC2082 /* OtherUserCollectionCell.xib in Resources */,
-				75811F7725CC61AC00CC2082 /* Main.storyboard in Resources */,
 				75811DF425CC61AB00CC2082 /* ListHashTagCollectionCell.xib in Resources */,
-				75811F7425CC61AC00CC2082 /* LaunchScreen.storyboard in Resources */,
+				75CF61D925CEE1430062B72B /* Main.storyboard in Resources */,
 				75811E4225CC61AB00CC2082 /* OtherUserTblCell.xib in Resources */,
+				75CF61D825CEE1430062B72B /* LaunchScreen.storyboard in Resources */,
 				75811E9325CC61AB00CC2082 /* VideoCoverImgViewController.xib in Resources */,
 				75811E2425CC61AB00CC2082 /* DraftsTblCell.xib in Resources */,
 				75811E3325CC61AB00CC2082 /* PeopleFollowRequestCell.xib in Resources */,
@@ -1153,7 +1145,6 @@
 				75811F5F25CC61AB00CC2082 /* Roboto-Light.ttf in Resources */,
 				75811F6225CC61AB00CC2082 /* Roboto-Regular.ttf in Resources */,
 				75811E3625CC61AB00CC2082 /* CustomSectionHeader.xib in Resources */,
-				75811DE825CC61AA00CC2082 /* Assets.xcassets in Resources */,
 				75811DD025CC61AA00CC2082 /* download.jpeg in Resources */,
 				75811F6B25CC61AC00CC2082 /* GoogleService-Info.plist in Resources */,
 				75811E1225CC61AB00CC2082 /* TrendingVideoCollectionCell.xib in Resources */,
@@ -1161,8 +1152,8 @@
 				75811E4525CC61AB00CC2082 /* TrendingVideoCell.xib in Resources */,
 				75811E1525CC61AB00CC2082 /* ListeUserCollectionCell.xib in Resources */,
 				75811F5925CC61AB00CC2082 /* 911Fonts.com_CenturyGothicBold__-_911fonts.com_fonts_pMgo.ttf in Resources */,
+				75CF61D725CEE1430062B72B /* Assets.xcassets in Resources */,
 				75811DFA25CC61AB00CC2082 /* HeaderCollectionViewCell.xib in Resources */,
-				75811F7125CC61AC00CC2082 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1176,9 +1167,7 @@
 				75811E4C25CC61AB00CC2082 /* PeopleMayKnowCell.xib in Resources */,
 				75811DEC25CC61AA00CC2082 /* VideoThumbnailCell.xib in Resources */,
 				75811DEF25CC61AB00CC2082 /* OtherUserCollectionCell.xib in Resources */,
-				75811F7825CC61AC00CC2082 /* Main.storyboard in Resources */,
 				75811DF525CC61AB00CC2082 /* ListHashTagCollectionCell.xib in Resources */,
-				75811F7525CC61AC00CC2082 /* LaunchScreen.storyboard in Resources */,
 				75811E4325CC61AB00CC2082 /* OtherUserTblCell.xib in Resources */,
 				75811E9425CC61AB00CC2082 /* VideoCoverImgViewController.xib in Resources */,
 				75811E2525CC61AB00CC2082 /* DraftsTblCell.xib in Resources */,
@@ -1187,7 +1176,6 @@
 				75811F6025CC61AB00CC2082 /* Roboto-Light.ttf in Resources */,
 				75811F6325CC61AB00CC2082 /* Roboto-Regular.ttf in Resources */,
 				75811E3725CC61AB00CC2082 /* CustomSectionHeader.xib in Resources */,
-				75811DE925CC61AA00CC2082 /* Assets.xcassets in Resources */,
 				75811DD125CC61AA00CC2082 /* download.jpeg in Resources */,
 				75811F6C25CC61AC00CC2082 /* GoogleService-Info.plist in Resources */,
 				75811F7E25CC61AC00CC2082 /* Info.plist in Resources */,
@@ -1197,7 +1185,6 @@
 				75811E1625CC61AB00CC2082 /* ListeUserCollectionCell.xib in Resources */,
 				75811F5A25CC61AB00CC2082 /* 911Fonts.com_CenturyGothicBold__-_911fonts.com_fonts_pMgo.ttf in Resources */,
 				75811DFB25CC61AB00CC2082 /* HeaderCollectionViewCell.xib in Resources */,
-				75811F7225CC61AC00CC2082 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1211,9 +1198,7 @@
 				75811E4D25CC61AB00CC2082 /* PeopleMayKnowCell.xib in Resources */,
 				75811DED25CC61AB00CC2082 /* VideoThumbnailCell.xib in Resources */,
 				75811DF025CC61AB00CC2082 /* OtherUserCollectionCell.xib in Resources */,
-				75811F7925CC61AC00CC2082 /* Main.storyboard in Resources */,
 				75811DF625CC61AB00CC2082 /* ListHashTagCollectionCell.xib in Resources */,
-				75811F7625CC61AC00CC2082 /* LaunchScreen.storyboard in Resources */,
 				75811E4425CC61AB00CC2082 /* OtherUserTblCell.xib in Resources */,
 				75811E9525CC61AB00CC2082 /* VideoCoverImgViewController.xib in Resources */,
 				75811E2625CC61AB00CC2082 /* DraftsTblCell.xib in Resources */,
@@ -1222,7 +1207,6 @@
 				75811F6125CC61AB00CC2082 /* Roboto-Light.ttf in Resources */,
 				75811F6425CC61AB00CC2082 /* Roboto-Regular.ttf in Resources */,
 				75811E3825CC61AB00CC2082 /* CustomSectionHeader.xib in Resources */,
-				75811DEA25CC61AA00CC2082 /* Assets.xcassets in Resources */,
 				75811DD225CC61AA00CC2082 /* download.jpeg in Resources */,
 				75811F6D25CC61AC00CC2082 /* GoogleService-Info.plist in Resources */,
 				75811F7F25CC61AC00CC2082 /* Info.plist in Resources */,
@@ -1232,7 +1216,6 @@
 				75811E1725CC61AB00CC2082 /* ListeUserCollectionCell.xib in Resources */,
 				75811F5B25CC61AB00CC2082 /* 911Fonts.com_CenturyGothicBold__-_911fonts.com_fonts_pMgo.ttf in Resources */,
 				75811DFC25CC61AB00CC2082 /* HeaderCollectionViewCell.xib in Resources */,
-				75811F7325CC61AC00CC2082 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1363,6 +1346,7 @@
 				75811E6925CC61AB00CC2082 /* ViewStoryModel.swift in Sources */,
 				75811F1A25CC61AB00CC2082 /* NVActivityIndicatorAnimationPacman.swift in Sources */,
 				75811DD325CC61AA00CC2082 /* SignupViewController.swift in Sources */,
+				75CF620D25CF21AA0062B72B /* APOrientationManager.swift in Sources */,
 				75811EB725CC61AB00CC2082 /* OtherUserVideoViewController.swift in Sources */,
 				75811E8425CC61AB00CC2082 /* MyProfileViewController.swift in Sources */,
 				75811EFF25CC61AB00CC2082 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
@@ -1688,18 +1672,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		75811DC925CC61AA00CC2082 /* LaunchScreen.storyboard */ = {
+		75CF61D325CEE1430062B72B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				75811DCA25CC61AA00CC2082 /* Base */,
+				75CF61D425CEE1430062B72B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		75811DCB25CC61AA00CC2082 /* Main.storyboard */ = {
+		75CF61D525CEE1430062B72B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				75811DCC25CC61AA00CC2082 /* Base */,
+				75CF61D625CEE1430062B72B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1830,12 +1814,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 3RYBY9J5NL;
 				INFOPLIST_FILE = ReplayMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ReplayMe.ReplayMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1850,12 +1836,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = LF2B4BCRGJ;
 				INFOPLIST_FILE = ReplayMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ReplayMe.ReplayMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

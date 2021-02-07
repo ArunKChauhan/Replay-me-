@@ -166,16 +166,24 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        if appDel.showCamera {
-            appDel.showCamera = false
-            // let cameraVC = storyboard!.instantiateViewController(withIdentifier: "CameraViewController") as! CameraViewController
-            // self.navigationController?.pushViewController(cameraVC, animated: false)
-
-            // storyUserDataApi()
-        } else {
+        let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
+        if launchedBefore{
             if appDel.isLandscape {
                 storyHide()
             }
+        } else {
+            let cameraVC = storyboard!.instantiateViewController(withIdentifier: "CameraViewController") as! CameraViewController
+            self.navigationController?.pushViewController(cameraVC, animated: false)
+            UserDefaults.standard.set(true, forKey: "launchedBefore")
+        }
+        
+        if appDel.showCamera {
+            appDel.showCamera = false
+             
+
+            // storyUserDataApi()
+        } else {
+           
             // newsFeedListArray = []
             //  homeListApi()
             // segmentedControl?.select(index:1, animated: true)
@@ -622,7 +630,13 @@ extension HomeViewController {
                 myCell.buttonLike?.setImage(UIImage(named: "heart"), for: UIControl.State.normal)
             }
 
-            myCell.playerThumbnailImg.sd_setImage(with: URL(string: ((newsfeedDict as AnyObject).object(forKey: "videoScreenShotUrl") as! String?)!), placeholderImage: UIImage(named: "video"))
+            let videoUrlList = (newsfeedDict.value(forKey: "videoUrlList") as! NSArray)[0] as! NSDictionary
+            if let urlStr = videoUrlList.object(forKey: "videoScreenShotUrl") as? String
+            {
+                myCell.playerThumbnailImg.sd_setImage(with: URL(string: urlStr), placeholderImage: UIImage(named: "video"))
+            
+            }
+//            myCell.playerThumbnailImg.sd_setImage(with: URL(string: ((newsfeedDict as AnyObject).object(forKey: "videoScreenShotUrl") as! String?)!), placeholderImage: UIImage(named: "video"))
 
             if checkTopTab == "following" {
                 myCell.storyLbl.isHidden = false
@@ -632,7 +646,7 @@ extension HomeViewController {
                 myCell.storyBtn.isHidden = true
             }
             myCell.indexPath = indexPath
-            if let videoURL = newsfeedDict["videoUrl"] as? String {
+            if let videoURL = videoUrlList["videoUrl"] as? String {
                 myCell.configureCell(videoURL: videoURL)
             }
             return myCell

@@ -82,8 +82,9 @@ class CameraViewController: SwiftyCamViewController, SwiftyCamViewControllerDele
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         // Don't forget to reset when view is being removed
-        CameraViewController.lockOrientation(.all)
-        appDel.isLandscape = true
+        CameraViewController.lockOrientation(.portrait)
+        appDel.isLandscape = false
+//        UIDevice.current.setValue(, forKey: "orientation")
     }
     /// OPTIONAL Added method to adjust lock and rotate to the desired orientation
     
@@ -251,12 +252,14 @@ class CameraViewController: SwiftyCamViewController, SwiftyCamViewControllerDele
     }
     @IBAction func closeCameraTapped(_ sender: Any) {
         //flashEnabled = !flashEnabled
+        appDel.isLandscape = false
         self.timer.invalidate()
         self.counter = 0; self.navigationController?.popViewController(animated: false)
        // self.dismiss(animated: true, completion: nil)
     }
     @IBAction func draftBtnClicked(_ sender: Any) {
       //  self.timer.invalidate()
+        appDel.isLandscape = false
      checkSave = false
 let draftVC = storyboard!.instantiateViewController(withIdentifier: "DraftViewController") as! DraftViewController
         draftVC.checkControler = 1

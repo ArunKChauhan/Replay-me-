@@ -8,15 +8,22 @@
 
 import UIKit
 import AssetsLibrary
+import AWSCognito
+import AWSS3
+import AVFoundation
 import AVKit
-
+import AVFoundation
+import MobileCoreServices
+import CoreMedia
+import AssetsLibrary
+import Photos
 
 @available(iOS 13.0, *)
 struct Contact {
     var selectImage: UIImage
 }
 @available(iOS 13.0, *)
-class PostNewsViewController: UIViewController {
+class PostNewsViewController: UIViewController,NVActivityIndicatorViewable {
  @IBOutlet weak var textView: UITextView!
     let placeholder = "Caption.."
     @IBOutlet var scrollBackView: UIView!
@@ -27,7 +34,10 @@ class PostNewsViewController: UIViewController {
     @IBOutlet var videoCoverImg: UIImageView!
     var recordedVideoURL: NSURL?
     var videoUrlStr: String = ""
-    
+    let bucketName = "replaymedemo/NewsFeedVideo"
+    let thumbnailBucketName = "replaymedemo/NewsFeedVideo/output/images"
+    var completionHandler: AWSS3TransferUtilityUploadCompletionHandlerBlock?
+    var typeStr: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -109,7 +119,122 @@ class PostNewsViewController: UIViewController {
     @IBAction func canceldBtnClicked(_ sender: Any) {
     }
     @IBAction func postBtnClicked(_ sender: Any) {
+        
+        saveImage(imageName: "\(Date().timeIntervalSince1970).jpg", image: videoCoverImg.image!)
     }
+ 
+    
+    func saveImage(imageName: String, image: UIImage) {
+     guard let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else { return }
+
+        let fileURL = documentsDirectory.appendingPathComponent(imageName)
+        guard let data = image.jpegData(compressionQuality: 1) else { return }
+
+        //Checks if file exists, removes it if so.
+        if FileManager.default.fileExists(atPath: fileURL.path) {
+            do {
+                try FileManager.default.removeItem(atPath: fileURL.path)
+                print("Removed old image")
+            } catch let removeError {
+                print("couldn't remove file at path", removeError)
+            }
+
+        }
+
+        do {
+            try data.write(to: fileURL)
+        } catch let error {
+            print("error saving file with error", error)
+        }
+loadImageFromDiskWith(fileName: imageName)
+    }
+    func loadImageFromDiskWith(fileName: String) -> UIImage? {
+
+      let documentDirectory = FileManager.SearchPathDirectory.documentDirectory
+
+        let userDomainMask = FileManager.SearchPathDomainMask.userDomainMask
+        let paths = NSSearchPathForDirectoriesInDomains(documentDirectory, userDomainMask, true)
+
+        if let dirPath = paths.first {
+            let imageUrl = URL(fileURLWithPath: dirPath).appendingPathComponent(fileName)
+            let image = UIImage(contentsOfFile: imageUrl.path)
+           // userProfileImg.image = image
+            AWSS3TransferManagerUploadImageFunction(with: imageUrl,fileName:fileName )
+            return image
+
+        }
+
+        return nil
+    }
+    
+    
+    func AWSS3TransferManagerUploadImageFunction(with resource: URL,fileName: String) {
+        
+        self.startAnimating()
+        
+        let key = "\(fileName)"
+        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+              let documentsURL = paths[0] as NSURL
+              guard let myUrl =  URL(string: "\(documentsURL)\(resource)") else { return  }
+        let request = AWSS3TransferManagerUploadRequest()!
+        
+        request.bucket = thumbnailBucketName
+        request.key = key
+        request.body = resource
+        request.acl = .publicReadWrite
+        request.contentType = "image"
+        
+        let transferManager = AWSS3TransferManager.default()
+            self.startAnimating()
+        transferManager.upload(request).continueWith(executor: AWSExecutor.mainThread()) { (task) -> Any? in
+            if let error = task.error {
+                print(error)
+                 self.stopAnimating()
+            }
+            if task.result != nil {
+                print("Uploaded \(key)")
+               self.stopAnimating()
+                self.uploadVidoeNewsFeed(with: "https://replaymedemo.s3.ap-south-1.amazonaws.com/NewsFeedVideo/output/images/\(key)" )
+               
+            }
+            return nil
+        }
+        
+    }
+ 
+ func uploadVidoeNewsFeed(with imgThumbUrl: String){
+            
+//     if textView.text == "Write your caption.."{
+//         textView.text = ""
+//     }
+     self.startAnimating()
+     
+    let para = ["videoUrl": videoUrlStr,"videoScreenShotUrl":imgThumbUrl,"content": textView.text!,"videoType": "gallery","title":txtTitle.text!] as [String : Any]
+                  print (para)
+                  ServiceClassMethods.AlamoRequest(method: "POST", serviceString: appConstants.kAddNewsFeedVideo, parameters: para as [String : Any]) { (dict) in
+                      print(dict)
+                      self.stopAnimating()
+                      let status = dict["status"] as? String
+                   
+                      if(status == "true"){
+                         self.textView.text = nil
+                         self.textView.delegate = self
+                          self.textView.text = self.placeholder
+                         self.textView.textColor = UIColor.darkGray
+                         self.textView.selectedTextRange = self.textView.textRange(from: self.textView.beginningOfDocument, to: self.textView.beginningOfDocument)
+                         
+                    self.ShowBanner(title: "", subtitle: dict.object(forKey: "message") as! String)
+                         self.navigationController?.popViewController(animated: true)
+     
+                      }
+                      else
+                      {
+                           self.stopAnimating()
+                           self.ShowBanner(title: "", subtitle: dict.object(forKey: "message") as! String)
+     
+                      }
+     }
+ }
     
 }
 @available(iOS 13.0, *)

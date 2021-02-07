@@ -37,7 +37,8 @@ var window: UIWindow?
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        self.showCamera = true
+//        self.showCamera = true
+        
         Thread.sleep(forTimeInterval: 3)
         NotificationCenter.default.addObserver(self, selector: #selector(deviceOrientationDidChange), name: UIDevice.orientationDidChangeNotification, object: nil)
          FirebaseApp.configure()
