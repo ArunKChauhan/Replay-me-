@@ -364,6 +364,7 @@ class MyProfileViewController: UIViewController,NVActivityIndicatorViewable,Coll
         })
     }
     @IBAction func chatBtnClicked(_ sender: Any) {
+        
     }
     @IBAction func homeBtnClicked(_ sender: Any) {
 
@@ -404,7 +405,7 @@ extension MyProfileViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 250
+        return 130
     }
     
     

@@ -54,24 +54,27 @@ class UserViewController: UIViewController,NVActivityIndicatorViewable,Collectio
         unblockBtn.isHidden = true
         self.blockUserTitle = "Block"
         
-        let followingTapGesture = UITapGestureRecognizer(target: self, action: #selector(followingUserOnTap))
+        
+        let followingTapGesture = UITapGestureRecognizer(target: self, action: #selector(followersOnTap))
         followingLblAction.isUserInteractionEnabled = true
         followingLblAction.addGestureRecognizer(followingTapGesture)
-         let followersCountTapGesture = UITapGestureRecognizer(target: self, action: #selector(followingUserOnTap))
+         let followersCountTapGesture = UITapGestureRecognizer(target: self, action: #selector(followersOnTap))
         totlaFollowingLbl.isUserInteractionEnabled = true
         totlaFollowingLbl.addGestureRecognizer(followersCountTapGesture)
         
-        let followersTapGesture = UITapGestureRecognizer(target: self, action: #selector(followersOnTap))
+        let followersTapGesture = UITapGestureRecognizer(target: self, action: #selector(followingUserOnTap))
         followerLblAction.isUserInteractionEnabled = true
         followerLblAction.addGestureRecognizer(followersTapGesture)
-        let followersContTapGesture = UITapGestureRecognizer(target: self, action: #selector(followersOnTap))
+        let followersContTapGesture = UITapGestureRecognizer(target: self, action: #selector(followingUserOnTap))
         totalFallowersLbl.isUserInteractionEnabled = true
         totalFallowersLbl.addGestureRecognizer(followersContTapGesture)
         self.friendRequestView.isHidden = true
         
     }
-
-    @objc func followingUserOnTap() {
+    
+    
+    
+    @objc func followersOnTap() {
         DispatchQueue.main.async {
             if self.followBtn.currentTitle == "Following" && self.checkProfile == "private" {
                 let vc = self.storyboard?.instantiateViewController(withIdentifier: "UserFollowViewController") as! UserFollowViewController
@@ -93,7 +96,8 @@ class UserViewController: UIViewController,NVActivityIndicatorViewable,Collectio
             
         }
     }
-    @objc func followersOnTap() {
+    
+    @objc func followingUserOnTap() {
  
         if self.followBtn.currentTitle == "Following" && self.checkProfile == "private" {
                let vc = self.storyboard?.instantiateViewController(withIdentifier: "UserFollowViewController") as! UserFollowViewController

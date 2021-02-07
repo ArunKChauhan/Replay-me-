@@ -39,10 +39,10 @@ class UserFollowViewController: UIViewController,UITableViewDelegate, UITableVie
     //MARK: - segmenterLoad Methods
     func segmenterLoad(){
         //segmentedControl.selectedIndex = 0
-        segmentedControl.append(title: "Following")
+        segmentedControl.append(title: "FOLLOWING")
             .set(titleColor: #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
         
-        segmentedControl.append(title: "Followers")
+        segmentedControl.append(title: "FOLLOWERS")
             .set(titleColor: #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1), for: .selected)
         segmentedControl.indicator.lineView.backgroundColor = #colorLiteral(red: 1, green: 0.07843137255, blue: 0.5803921569, alpha: 1)
         segmentedControl.addTarget(self, action: #selector(changeIndex(segmentedControl:)), for: .valueChanged)
