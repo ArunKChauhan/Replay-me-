@@ -17,6 +17,7 @@ import MXSegmentedControl
 //import AlamofireImage
 
 @available(iOS 13.0, *)
+
 class MyProfileViewController: UIViewController,NVActivityIndicatorViewable,CollectionViewCellDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
      var recordedVideoURL: NSURL?
     
