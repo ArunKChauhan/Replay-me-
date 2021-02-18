@@ -20,7 +20,7 @@ class CameraViewController: SwiftyCamViewController, SwiftyCamViewControllerDele
     @IBOutlet weak var captureButton    : SwiftyRecordButton!
     @IBOutlet weak var flipCameraButton : UIButton!
     @IBOutlet weak var flashButton      : UIButton!
-    
+    @IBOutlet weak var pageController   : UIPageControl!
     @IBOutlet var settingBackView: UIView!
     @IBOutlet weak var recordingTimerLbl: UILabel!
     @IBOutlet var startTimeSlide: UISlider!
@@ -36,10 +36,10 @@ class CameraViewController: SwiftyCamViewController, SwiftyCamViewControllerDele
     var counter = 0
     var timer = Timer()
     var checkSave: Bool = true
-    
+    var count  = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        pageController.numberOfPages = count
         settingBackView.isHidden = true //UIDevice.current.setValue(UIInterfaceOrientation.landscapeRight.rawValue, forKey: "orientation")
         shouldPrompToAppSettings = true
         cameraDelegate = self
@@ -210,8 +210,9 @@ class CameraViewController: SwiftyCamViewController, SwiftyCamViewControllerDele
                 UserDefaults.standard.set(thresholdDict, forKey: "thresHoldSetting")
         startTimeLbl.text = "\(Int(startSliderValue)) Sec"
     }
-    @IBAction func endTimeSlider(_ sender: UISlider)
-    {
+    @IBAction func endTimeSlider(_ sender: UISlider){
+        count += 1
+        pageController.numberOfPages = count
         startSliderValue  = Int(startTimeSlide.value)
            endSliderValue  = Int(endTimeSlide.value)
            let addSliderValue = endSliderValue + startSliderValue

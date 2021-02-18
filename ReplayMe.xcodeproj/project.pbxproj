@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15855A5625CFB76B00A6B438 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15855A5525CFB76B00A6B438 /* SettingViewController.swift */; };
 		15855A5925CFBA3300A6B438 /* OtherUserTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15855A5725CFBA3300A6B438 /* OtherUserTblCell.swift */; };
 		15855A5A25CFBA3300A6B438 /* OtherUserTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15855A5825CFBA3300A6B438 /* OtherUserTblCell.xib */; };
 		75811A5F25CC5D7600CC2082 /* ReplayMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811A5E25CC5D7600CC2082 /* ReplayMeTests.swift */; };
@@ -425,6 +424,7 @@
 		75811F8025CC61AC00CC2082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811DCF25CC61AA00CC2082 /* SceneDelegate.swift */; };
 		75811F8125CC61AC00CC2082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811DCF25CC61AA00CC2082 /* SceneDelegate.swift */; };
 		75811F8225CC61AC00CC2082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75811DCF25CC61AA00CC2082 /* SceneDelegate.swift */; };
+		75B9CBB125CFDFCA006406C6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B9CBB025CFDFCA006406C6 /* SettingViewController.swift */; };
 		75CF61D725CEE1430062B72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CF61D225CEE1430062B72B /* Assets.xcassets */; };
 		75CF61D825CEE1430062B72B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CF61D325CEE1430062B72B /* LaunchScreen.storyboard */; };
 		75CF61D925CEE1430062B72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CF61D525CEE1430062B72B /* Main.storyboard */; };
@@ -450,7 +450,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15855A5525CFB76B00A6B438 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = "../../../../../Downloads/Replay-me--master/ReplayMe/AfterLogin/MyProfile/SettingViewController.swift"; sourceTree = "<group>"; };
 		15855A5725CFBA3300A6B438 /* OtherUserTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherUserTblCell.swift; sourceTree = "<group>"; };
 		15855A5825CFBA3300A6B438 /* OtherUserTblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherUserTblCell.xib; sourceTree = "<group>"; };
 		2C1C24EB057DF17D928EEB18 /* Pods-ReplayMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplayMe.release.xcconfig"; path = "Target Support Files/Pods-ReplayMe/Pods-ReplayMe.release.xcconfig"; sourceTree = "<group>"; };
@@ -600,6 +599,7 @@
 		75811DCD25CC61AA00CC2082 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75811DCE25CC61AA00CC2082 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75811DCF25CC61AA00CC2082 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75B9CBB025CFDFCA006406C6 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		75CF61D225CEE1430062B72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75CF61D425CEE1430062B72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75CF61D625CEE1430062B72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -814,7 +814,7 @@
 		75811D6725CC61AA00CC2082 /* MyProfile */ = {
 			isa = PBXGroup;
 			children = (
-				15855A5525CFB76B00A6B438 /* SettingViewController.swift */,
+				75B9CBB025CFDFCA006406C6 /* SettingViewController.swift */,
 				75811D6925CC61AA00CC2082 /* UserFollowViewController.swift */,
 				75811D6A25CC61AA00CC2082 /* UpdateProfileViewController.swift */,
 				75811D6B25CC61AA00CC2082 /* MyProfileViewController.swift */,
@@ -1282,7 +1282,6 @@
 				75811F0225CC61AB00CC2082 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
 				75811EB125CC61AB00CC2082 /* CollectionViewCellModel.swift in Sources */,
 				75811F7A25CC61AC00CC2082 /* AppDelegate.swift in Sources */,
-				15855A5625CFB76B00A6B438 /* SettingViewController.swift in Sources */,
 				75811E0C25CC61AB00CC2082 /* ListHashTagCollectionCell.swift in Sources */,
 				75811E2725CC61AB00CC2082 /* PeopleFollowRequestCell.swift in Sources */,
 				75811E6625CC61AB00CC2082 /* ContentViewController.swift in Sources */,
@@ -1337,6 +1336,7 @@
 				75811EEA25CC61AB00CC2082 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
 				75811EED25CC61AB00CC2082 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
 				75811E6925CC61AB00CC2082 /* ViewStoryModel.swift in Sources */,
+				75B9CBB125CFDFCA006406C6 /* SettingViewController.swift in Sources */,
 				75811F1A25CC61AB00CC2082 /* NVActivityIndicatorAnimationPacman.swift in Sources */,
 				75811DD325CC61AA00CC2082 /* SignupViewController.swift in Sources */,
 				75CF620D25CF21AA0062B72B /* APOrientationManager.swift in Sources */,
