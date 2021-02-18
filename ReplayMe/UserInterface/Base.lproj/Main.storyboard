@@ -8114,12 +8114,12 @@
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1z-yZ-Z5T">
-                                            <rect key="frame" x="82.5" y="224" width="15" height="15"/>
+                                            <rect key="frame" x="82.5" y="222" width="15" height="15"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="15" id="3MQ-5O-Xnt"/>
                                                 <constraint firstAttribute="width" constant="15" id="jVV-wz-NJa"/>
                                             </constraints>
-                                            <state key="normal" image="profile_star"/>
+                                            <state key="normal" image="icon_profile_star"/>
                                             <connections>
                                                 <action selector="editBtnClicked:" destination="qZs-Nd-wAM" eventType="touchUpInside" id="hde-AW-Grl"/>
                                             </connections>
@@ -8157,7 +8157,7 @@
                                         <constraint firstItem="wLn-Ml-PWK" firstAttribute="leading" secondItem="SXP-mV-VaE" secondAttribute="leading" id="AEO-FR-l2D"/>
                                         <constraint firstAttribute="trailing" secondItem="nV5-Wy-yeB" secondAttribute="trailing" id="AjH-FF-8zg"/>
                                         <constraint firstAttribute="trailing" secondItem="ohq-oq-g2o" secondAttribute="trailing" constant="0.10000000000000001" id="CeR-aT-K1Y"/>
-                                        <constraint firstItem="W1z-yZ-Z5T" firstAttribute="top" secondItem="p2B-Ys-Kgw" secondAttribute="bottom" constant="9" id="CsL-gt-T6b"/>
+                                        <constraint firstItem="W1z-yZ-Z5T" firstAttribute="top" secondItem="p2B-Ys-Kgw" secondAttribute="bottom" constant="7" id="CsL-gt-T6b"/>
                                         <constraint firstItem="9Ce-Fl-C8v" firstAttribute="leading" secondItem="SXP-mV-VaE" secondAttribute="leading" id="DJR-jZ-Bim"/>
                                         <constraint firstItem="gSh-2K-4Ay" firstAttribute="top" secondItem="aZO-Il-iKn" secondAttribute="bottom" constant="2" id="EXl-2J-r8g"/>
                                         <constraint firstItem="QQc-O6-hYk" firstAttribute="leading" secondItem="SXP-mV-VaE" secondAttribute="leading" constant="20" id="Gdc-35-wl3"/>
@@ -8177,7 +8177,7 @@
                                         <constraint firstItem="ohq-oq-g2o" firstAttribute="top" secondItem="SXP-mV-VaE" secondAttribute="top" constant="0.10000000000000001" id="bEO-Cu-SfD"/>
                                         <constraint firstItem="Dp2-CZ-p6k" firstAttribute="top" secondItem="wLn-Ml-PWK" secondAttribute="bottom" constant="25" id="dBy-OW-d4P"/>
                                         <constraint firstAttribute="trailing" secondItem="7Q3-Kn-cFG" secondAttribute="trailing" id="dOp-UW-6rF"/>
-                                        <constraint firstItem="myA-6E-rQI" firstAttribute="top" secondItem="W1z-yZ-Z5T" secondAttribute="bottom" constant="1" id="dfH-nL-yBy"/>
+                                        <constraint firstItem="myA-6E-rQI" firstAttribute="top" secondItem="W1z-yZ-Z5T" secondAttribute="bottom" constant="3" id="dfH-nL-yBy"/>
                                         <constraint firstItem="ohq-oq-g2o" firstAttribute="leading" secondItem="SXP-mV-VaE" secondAttribute="leading" constant="0.10000000000000001" id="fEe-Gs-SQN"/>
                                         <constraint firstItem="wLn-Ml-PWK" firstAttribute="top" secondItem="9Ce-Fl-C8v" secondAttribute="bottom" constant="20" id="hDj-vD-Eyf"/>
                                         <constraint firstItem="ohq-oq-g2o" firstAttribute="leading" secondItem="SXP-mV-VaE" secondAttribute="leading" constant="0.10000000000000001" id="hMN-Lx-lyw"/>
@@ -10915,6 +10915,7 @@
         <image name="home_pink" width="29" height="29"/>
         <image name="ic_play_circle_filled" width="36" height="36"/>
         <image name="icon_goal" width="29" height="29"/>
+        <image name="icon_profile_star" width="14" height="14"/>
         <image name="icon_soccerball" width="14" height="14"/>
         <image name="icon_strong" width="29" height="29"/>
         <image name="icon_tropy" width="29" height="29"/>
@@ -10926,7 +10927,6 @@
         <image name="menuD" width="24" height="24"/>
         <image name="more_Image" width="27" height="5.5"/>
         <image name="plus" width="20" height="20"/>
-        <image name="profile_star" width="14" height="14"/>
         <image name="rotate" width="50" height="50"/>
         <image name="save" width="26" height="26"/>
         <image name="save-circle" width="36.5" height="36.5"/>
