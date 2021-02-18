@@ -128,6 +128,8 @@ class CameraViewController: SwiftyCamViewController, SwiftyCamViewControllerDele
         print("Did finish Recording")
         captureButton.shrinkButton()
         self.timer.invalidate()
+        count += 1
+        pageController.numberOfPages = count
         //showButtons()
     }
 
@@ -211,8 +213,7 @@ class CameraViewController: SwiftyCamViewController, SwiftyCamViewControllerDele
         startTimeLbl.text = "\(Int(startSliderValue)) Sec"
     }
     @IBAction func endTimeSlider(_ sender: UISlider){
-        count += 1
-        pageController.numberOfPages = count
+        
         startSliderValue  = Int(startTimeSlide.value)
            endSliderValue  = Int(endTimeSlide.value)
            let addSliderValue = endSliderValue + startSliderValue
